@@ -1,15 +1,15 @@
 course: "CS56"
-qtr: "W18"
-quarter: "Winter 2018"
-piazza_url: https://piazza.com/class/j9fz2m9kep655
-gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=19859
+qtr: "M18"
+quarter: "Summer 2018"
+piazza_url: https://piazza.com/class/tbd
+gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
 
-ta_list: "Seemantha and Audrey"
-ta_list_full: "Seemantha Saha and Audrey Dutcher"
-mentors_list: "Arvan, Brian, Christian. John, Scott, Sierra and Steven"
-discussion_section_times: "4pm, 5pm or 6pm"
+ta_list: "TBD and TBD"
+ta_list_full: "TBD lastname and TBD lastname"
+mentors_list: "TBD, TBD, and TBD"
+discussion_section_times: "9:30am, 11am"
 
-github_url: https://github.com/ucsb-cs56-w18/ucsb-cs56-w18.github.io
+github_url: https://github.com/ucsb-cs56-m18/ucsb-cs56-m18.github.io
 mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
 
 on_campus: http://proquest.safaribooksonline.com
@@ -22,34 +22,22 @@ legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
 legacy_wiki_name: "56wiki"
 
 
-submit_cs_course: CS56_w18
+submit_cs_course: CS56_m18
 
-start_week: 0
-start_date: 2018-01-07 00:00:00.00-8:00
-num_weeks: 10
-extra_exam_week: true
-sections: "4pm,&nbsp;5pm or&nbsp;6pm"
+start_week: 1
+start_date: 2018-08-05 00:00:00.00-8:00
+num_weeks: 6
+extra_exam_week: false
+sections: "9:30am&nbsp;or&nbsp;11am"
 
 cal_dates: >
   [
-  {"label":"First day of classes", "date":"2018-01-16" },
-  {"label":"Univ Holiday", "date":"2018-01-15" },
-  {"label":"Last day to drop classes","date":"2018-02-05" },
-  {"label":"S18 Reg Pass 1 starts","date":"2018-02-05" },
-  {"label":"S18 Reg Pass 1 ends","date":"2018-02-17" },  
-  {"label":"Univ Holiday", "date":"2018-02-19" },
-  {"label":"Conrad at SIGCSE", "date":"2018-02-21" },
-  {"label":"Conrad at SIGCSE", "date":"2018-02-22" },
-  {"label":"Conrad at SIGCSE", "date":"2018-02-23" },
-  {"label":"S18 Reg Pass 2 starts", "date":"2018-02-20" },
-  {"label":"S18 Reg Pass 2 ends", "date":"2018-03-09" },
-  {"label":"S18 Reg Pass 3 starts", "date":"2018-03-12" },
-  {"label":"Last day of instruction", "date":"2017-03-16" },
-  {"label":"Final Exams Start", "date":"2017-03-19" },
-  {"label":"Final Exams End", "date":"2017-03-23" }
+  {"label":"Session B classes begin", "date":"2018-08-06" },
+  {"label":"Session B classes end", "date":"2018-08-15" },	
+  {"label":"Univ Holiday", "date":"2018-09-03" },
   ]
 
-hwk_drop_lowest: four
+hwk_drop_lowest: three
 
 legacy_wiki_name: 56wiki
 legacy_wiki_url: "https://foo.cs.ucsb.edu/56wiki" 
