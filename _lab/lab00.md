@@ -1,10 +1,10 @@
 ---
 layout: lab
 num: lab00
-ready: true
+ready: false
 desc: "Getting Started"
-assigned: 2018-01-18 16:00:00.00-8
-due: 2018-01-24 17:00:00.00-8
+assigned: 2018-08-06 09:30:00.00-8
+due: 2018-08-09 17:00:00.00-8
 submit_cs_projnum: 936
 signup_app: https://ucsb-cs56-w18-signup.herokuapp.com
 ---
@@ -54,7 +54,8 @@ Here is an overview of the remaining steps in the lab:
     - Make sure your `umail.ucsb.edu` email address is 
        registered as one of the emails associated with your github.com account.
     - Register your account using the web app at: <{{page.signupapp}}>
-1. Visit <https://github.ucsb.edu> and login with your CSIL account, to establish your github.ucsb.edu account.
+    
+1. Also visit <https://github.ucsb.edu> and login with your CSIL account, to establish your github.ucsb.edu account.   We may or may not use that account this quarter, but we want to be sure that you've established that account in case we need it.
 
 2. Login to your CSIL account, and create a ~/cs56 subdirectory.
 
@@ -80,20 +81,11 @@ public class HelloWorld {
 
 5. Run the file with the command `java HelloWorld`
 
-6. Navigate to `submit.cs.ucsb.edu`.   
+6. Navigate to <https://gradescope.com>.   
 
-7. Join the class {{site.submit_cs_course}} 
+7. Find the class {{site.submit_cs_course}}.  If you are not enrolled in the class, contact one of the course
+   staff (your instructor, or a TA or an undergrad mentor) to get enrolled.
 
-8. The next step is to submit your work to submit.cs for grading.  The way
-   you do that depends on whether you are working on one of the CSIL machines,
-   or on your own computer.   
-
-   If you are working on CSIL, use the command:
-
-   <tt>~submit/submit -p {{page.submit_cs_projnum}} HelloWorld.java</tt>
-
-   If you are working on your own machine, visit: 
-
-   <https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_projnum}}/submission>
+8. The next step is to upload your work to Gradescope.com for grading.  
 
 9. Once you see that you have a score of 100 for the lab, you are *done* with lab00.  
