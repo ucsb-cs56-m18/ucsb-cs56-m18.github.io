@@ -4,7 +4,7 @@ layout: default
 ready: true
 ---
 
-# Lab Seating Chart, 11apm
+# Lab Seating Chart, 11am
 
 <style>
 iframe { width: 100%; height: 1400px; overflow: scroll; }  
