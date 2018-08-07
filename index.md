@@ -14,6 +14,16 @@ title: CS56, Winter 2018, pconrad
 </ul>
 </div>
 
+
+<div data-role="collapsible" data-collapsed="true">
+<h2 id="bios">Course Staff Bios:</h2>
+<ul>
+{% for b in site.bios %}
+<li><a href="{{b.url}}"  data-ajax="false">{{b.name }}</a>&mdash;{{b.role}}</li>
+{% endfor %}
+  </ul> 
+</div>
+
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="labs">Labs:</h2>
 {% include lab_table.html %}
