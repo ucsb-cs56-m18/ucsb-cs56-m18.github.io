@@ -81,11 +81,9 @@ public class HelloWorld {
 
 5. Run the file with the command `java HelloWorld`
 
-6. Navigate to <https://gradescope.com>.   
+6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
-7. Find the class {{site.submit_cs_course}}.  If you are not enrolled in the class, contact one of the course
-   staff (your instructor, or a TA or an undergrad mentor) to get enrolled.
+7. Upload your work to Gradescope.com for grading.    If you are working from your own machine (i.e. ssh'ing into CSIL), you'll need to transfer the file to your own machine before you can upload it for grading.    
+    * If you aren't sure how, there is a link on the CS16 web page that explains [how to copy files between CSIL and your own machine](https://ucsb-cs16.github.io/topics/csil_copying_files/).
 
-8. The next step is to upload your work to Gradescope.com for grading.  
-
-9. Once you see that you have a score of 100 for the lab, you are *done* with lab00.  
+8. Once you see that you have a score of 100 for the lab on Gradescope, you are *done* with lab00.  
