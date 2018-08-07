@@ -98,9 +98,9 @@ Visit <https://github.ucsb.edu> and login with your CSIL account, to establish y
 Login to your CSIL account, and create a ~/cs56 subdirectory.
 
 In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
- the following code.  Call the file `HelloWorld.java`.  Put your name instead of `Your Name Here`.
+ the following code.  Call the file `Hello.java`.  Put your name instead of `Your Name Here`.
 
-(Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).
+(Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).)
 
 ```java
 
@@ -117,9 +117,9 @@ public class HelloWorld {
 }
 ```
 
-4. Compile the file with the command `javac HelloWorld.java`
+4. Compile the file with the command `javac Hello.java`
 
-5. Run the file with the command `java HelloWorld`
+5. Run the file with the command `java Hello`
 
 6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
