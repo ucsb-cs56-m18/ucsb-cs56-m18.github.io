@@ -125,6 +125,6 @@ defaults:
   -
     scope:
      path: ""
-     type: bio
+     type: bios
     values:
      layout: bio
