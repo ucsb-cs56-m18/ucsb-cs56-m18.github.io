@@ -6,7 +6,7 @@ desc: "Getting Started"
 assigned: 2018-08-06 09:30:00.00-8
 due: 2018-08-09 17:00:00.00-8
 submit_cs_projnum: 936
-signup_app: https://ucsb-cs56-w18-signup.herokuapp.com
+signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 ---
 
 If you find typos or problems with the lab instructions, please report
