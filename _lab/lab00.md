@@ -3,9 +3,8 @@ layout: lab
 num: lab00
 ready: false
 desc: "Getting Started"
-assigned: 2018-08-06 09:30:00.00-8
-due: 2018-08-09 17:00:00.00-8
-submit_cs_projnum: 936
+assigned: 2018-08-07 09:30:00.00-8
+due: 2018-08-10 17:00:00.00-8
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 ---
 
