@@ -1,5 +1,5 @@
 ---
-title: "Syllabus, CMPSC 56, Winter 2018"
+title: "Syllabus, CMPSC 56, Summer 2018"
 layout: handout
 ready: false
 ---
@@ -11,11 +11,10 @@ Basic Facts
 
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Piazza)
    * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
-* **Lecture**: TR 11am-12:15pm Phelps 3526, ATTENDANCE REQUIRED.
+* **Lecture**: TWR 9:30am-10:50am Phelps 3526. ATTENDANCE REQUIRED. 
 * **TAs**: {{site.ta_list_full}} (contact via Piazza)
-* **Reader**: Ishani Gupta (contact via Piazza)
 * **Mentors**: {{site.mentors_list}} (contact via Piazza)
-* **Lab** (50 minute discussion section) Thursday {{site.discussion_section_times}}, Phelps 3525, ATTENDANCE REQUIRED.                                         
+* **Lab** (80 minute discussion section) Friday {{site.discussion_section_times}}, Phelps 3525. ATTENDANCE REQUIRED.                                         
 * Office Hours: See: <http://www.cs.ucsb.edu/~pconrad/ofchrs>  
 
 For course website links, visit the course Gauchospace site.
@@ -73,9 +72,8 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm 1 | 20 % |
-| Midterm 2 | 20 % |
-| Final | 20 % |
+| Midterm  | 30 % |
+| Final | 30 % |
 | Hwks, In Class Assignments | 10 % |
 | Labs (typically closed source, some open source) | 10 % |
 | Projects (open source) | 20 % |
@@ -125,7 +123,7 @@ Project points assignments can be found in public github repositories in the Org
 
 To earn a "perfect score" (100%) for this 20% component of your grade, you need to earn 1000 project points. If you only earn 800, then an 80% will be recorded for that 20% of your grade.
 
-Some projects are worth more points, and some worth fewer.
+Some assignments in the project category are worth more points, and some worth fewer.
 
 If you accumulate more than 1000 project points, up to 100 project points may be used to raise your final average in the class up to 2.0 points. (The points will be recorded as extra credit). (Each point raises your final course average by 0.02% ).
 
