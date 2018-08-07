@@ -119,7 +119,7 @@ The remaining part of your grade--the last 20%--comes from project points which 
 Project Points
 ==============
 
-Project points assignments can be found in public github repositories in the Organization: <http://github.com/organizations/UCSB-CS56-Projects>. The way in which these will be assigned will be explained later in the course.
+Project points assignments can be found in public github repositories in the organization: <http://github.com/organizations/ucsb-cs56-webapps>. The way in which these will be assigned will be explained later in the course.
 
 To earn a "perfect score" (100%) for this 20% component of your grade, you need to earn 1000 project points. If you only earn 800, then an 80% will be recorded for that 20% of your grade.
 
