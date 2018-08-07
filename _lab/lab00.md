@@ -47,20 +47,61 @@ The rest of the lab: Step-by-Step
 =================================
 
 
-Here is an overview of the remaining steps in the lab:
+## Step 1: Create a CoE account if you don't have one already
 
-0. If you didn't already do it:
-    - Create a github.com account
-    - Make sure your `umail.ucsb.edu` email address is 
-       registered as one of the emails associated with your github.com account.
-    - Register your account using the web app at: <{{page.signupapp}}>
+We encourage you to complete all programming assignments by logging in
+to the machines in the Computer Science labs, or to connect
+remotely. To do this you will need a **College of Engineering
+account**. You can create an account online at
+<https://accounts.engr.ucsb.edu/create>.
+
+If you are enrolled in <i>any</i> CoE course this quarter (including CS56), you
+should be able to create your account immediately.
+
+If you are not able to do so, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.
+
+## Step 2: Get setup with github and add yourself to our organization
+
+We will be using github.com in this course. We have created an
+organization called {{site.github_org}} on github.com where you can
+create repositories (repos) for your assignments in this course.
+
+The advantage of creating private repos under this organization is
+that the course staff (your instructors and TAs) will be able to see
+your code and provide you with help, without you having to do anything
+special.
+
+To join this organization, you need to do three things.
+
+1. If you don't already have a github.com account, create one on the
+"free" plan. Visit [https://github.com/](https://github.com/)
+
+2. If you don't already have your @umail.ucsb.edu email address
+associated with your github.com account. go to "settings", add that
+email, and confirm that email address.
+
+3. Visit our Github Sign Up Tool at <{{page.signup_app}}>.   Navigate to <{{page.signup_app}}>.  Login with your github.com account. Click "Home", find this course ({{site.course}}, {{site.qtr}}), and click the "Join course button".   That will automatically send you an invitation to join the course organization on github.
+
+4. There should be a link to the invitation for the GitHub organization for this course (<https://github.com/{{site.github_org}}>). Click on the invitation link and accept it. You can also go straight to <https://github.com/{{site.github_org}}> and see the invitation there (if you're logged in). Accept the invitation that appears in your browser (from step 3) or log into your account on [https://github.com/](https://github.com/) to accept the invitation.
+
+## Step 3: Get setup with gradescope
+
+We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email notification with instructions about logging into gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.qtr}} courses.
+
+The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.num}} using this page.
+
+## Step 4: Set up your github.ucsb.edu account.
     
-1. Also visit <https://github.ucsb.edu> and login with your CSIL account, to establish your github.ucsb.edu account.   We may or may not use that account this quarter, but we want to be sure that you've established that account in case we need it.
+Visit <https://github.ucsb.edu> and login with your CSIL account, to establish your github.ucsb.edu account.   We may or may not use that account this quarter, but we want to be sure that you've established that account in case we need it.  Just loggin in and logging out once establishes the account.
 
-2. Login to your CSIL account, and create a ~/cs56 subdirectory.
+## Step 5: Some Java coding
 
-3. In that directory, use your favorite text editor to create a file containing
+Login to your CSIL account, and create a ~/cs56 subdirectory.
+
+In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
  the following code.  Call the file `HelloWorld.java`.  Put your name instead of `Your Name Here`.
+
+(Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).
 
 ```java
 
