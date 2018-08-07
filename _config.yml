@@ -74,7 +74,9 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-
+  bios:
+    output: true
+    permalink: /bios/:path
 
 
 
@@ -120,3 +122,9 @@ defaults:
       type: info
     values:
       layout: handout
+  -
+    scope:
+     path: ""
+     type: bio
+    values:
+     layout: bio
