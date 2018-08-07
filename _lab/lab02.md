@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab02
-ready: true
+ready: false
 desc: "Polynomials"
 assigned: 2018-01-25 16:00:00.00-8
 due: 2018-02-12 23:59.00-8
