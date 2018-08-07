@@ -33,7 +33,7 @@ sections: "9:30am&nbsp;or&nbsp;11am"
 cal_dates: >
   [
   {"label":"Session B classes begin", "date":"2018-08-06" },
-  {"label":"Session B classes end", "date":"2018-08-15" },	
+  {"label":"Session B classes end", "date":"2018-09-15" },	
   {"label":"Univ Holiday", "date":"2018-09-03" },
   ]
 
