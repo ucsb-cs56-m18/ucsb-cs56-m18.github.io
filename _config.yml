@@ -4,9 +4,9 @@ quarter: "Summer 2018"
 piazza_url: https://piazza.com/class/tbd
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
 
-ta_list: "TBD and TBD"
-ta_list_full: "TBD lastname and TBD lastname"
-mentors_list: "TBD, TBD, and TBD"
+ta_list: "Mahnaz and Santha"
+ta_list_full: "Mahnaz Koupaee and Santha Ramamoorthy"
+mentors_list: "Chandler, Charlie (Fuheng) Derek (Guancheng), Nuan, Omer, Wilson, Yunkai, Zihao"
 discussion_section_times: "9:30am, 11am"
 
 github_url: https://github.com/ucsb-cs56-m18/ucsb-cs56-m18.github.io
@@ -17,10 +17,8 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 hfj_url: book/programming/java/0596009208
 hfdp_url: book/software-engineering-and-development/patterns/0596007124 
 
-
 legacy_wiki_url: https://foo.cs.ucsb.edu/56wiki
 legacy_wiki_name: "56wiki"
-
 
 submit_cs_course: CS56_m18
 
