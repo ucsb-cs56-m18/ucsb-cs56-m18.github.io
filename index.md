@@ -14,14 +14,23 @@ title: CS56, Winter 2018, pconrad
 </ul>
 </div>
 
+<style>
+table.bios * td {
+ padding: 0.2em;
+}
+p.staff-bio { max-width: 70em; /* http://maxdesign.com.au/articles/ideal-line-length-in-ems/ */
+              padding: 0.5em;
+	    }
+</style>
 
 <div data-role="collapsible" data-collapsed="true">
 <h2 id="bios">Course Staff Bios:</h2>
-<ul>
+<table class="bios">
+<tr><th>Name</th><th>Role</th><th>Bio</th></tr>
 {% for b in site.bios %}
-<li><a href="{{b.url}}"  data-ajax="false">{{b.name }}</a>&mdash;{{b.role}}</li>
+<tr><td><a href="{{b.url}}"  data-ajax="false">{{b.name }}</a></td><td>{{b.role}}</td><td><p class="staff-bio">{{b.bio}}</p></td></tr>
 {% endfor %}
-  </ul> 
+</table>
 </div>
 
 <div data-role="collapsible" data-collapsed="false">
