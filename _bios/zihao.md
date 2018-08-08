@@ -1,5 +1,5 @@
 ---
-name: "Zihao Zhang"
+name: "Zihao"
 role: "Mentor"
 bio: >
     Junior student major in Computer science. Fresh man project Sensor / Remote controlled ORV. Sophomore project supper-fun       version zombie vs. plants. Like building things that are fun.

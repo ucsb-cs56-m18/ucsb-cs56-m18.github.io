@@ -1,7 +1,7 @@
 ---
-Name: "Mahnaz"
-Role: "TA"
-Bio: >
+name: "Mahnaz"
+role: "TA"
+bio: >
   I’m Mahnaz Koupaee a second-year Masters student working in NLP lab with professor William Wang. 
   I’ve been a TA since I joined UCSB for multiple courses such as CS4, CS8, CS48, CS64 and CS138. 
   Programming courses gives us the opportunity to create cool things step-by-step and make us feel good about ourselves and our abilities!
