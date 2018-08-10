@@ -15,9 +15,9 @@ If you find typos or problems with the lab instructions, please report them on P
 Overview of this lab
 ====================
 
-1. Work in your pair partnership on this project.  Don't start working unless you are sitting together.  This should be a true pair partner assignment.
+1. Work in your pair partnership on this project.  Don't start working unless you are sitting together.  This should be a true pair partner assignment.    In true pairing, every line of code goes through the minds of two programmers.  Please read this [blog post from the well-known Agile Coach LLewellen Falco](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html) that explains the idea of **strong-style pairing**.
 
-1. Login at github.com.  Click on the drop down menu at left where your username appears, and ensure that <tt>{{page.org}}</tt> appears    among your organizations in the drop down menu.  
+1. Login at github.com.  Click on the drop down menu at left where your username appears, and ensure that <tt>{{page.org}}</tt> appears    among your organizations in the drop down menu.    (Note: The image might have ucsb-cs56-w18, but your page should have {{site.github-org-name}} instead.   The URL for that org is <{{site.github-org-url}}>, and if you followed the steps in lab00, you should have an invitiation to join that org.
 
     <img src="https://docs.google.com/drawings/d/e/2PACX-1vQVGuD1Wui6_-LvNFBuGDA7qj9IMr9lU5mtx9MmXxnxJdlCpwUk1B5UZ3oRWgWkf93F7Eh4XmZSN14v/pub?w=371&amp;h=346">
 
@@ -30,7 +30,7 @@ Overview of this lab
 1. Repeat the previous step if needed for BOTH pair partners.  Each one should verify that they have access to creating repos in the <tt>{{page.org}}</tt> organization.  If necessary, allow the pair partner that is not currently logged in to use an "Incognito Window" or the equivalent in your browser.
 
 
-1. Now, one of the two of you: create a *private* repo for {{page.num}} under the {{page.org}} organization on <github.com>
+1. Now, one of the two of you: create a *private* repo for {{page.num}} under the {{site.github-org-name}} organization on <github.com>
     - It should be called <b>{{page.num}}-githubid1-githubid2</b> where githubid1 and githubid2 are your the githubids of you and your pair partner IN ALPHABETICAL ORDER.
     - (NOTE: yes, hyphens not underscores.  Conrad may have showed underscores during lecture, but he goofed.)
     - It should be <b>private</b>, not public.
@@ -71,9 +71,9 @@ Overview of this lab
 
 6.  We are now going to add TWO remotes to this repo.
     * The following command adds a remote that you can use to get the starter code
-        * `git remote add starter git@github.com:ucsb-cs56-w18/STARTER_lab01.git`
+        * `git remote add starter git@github.com:ucsb-cs56-m18/STARTER_lab01.git`
     * The following command adds a remote called `origin` that refers to the repo on github.com.  Instead of the URL below, use the URL for YOUR repo, i.e. substitute your github ids in place of `cgaucho01` and ldelplaya99`.
-        * `git remote add origin git@github.com:ucsb-cs56-w18/lab01-cgaucho01-ldelplaya99.git`
+        * `git remote add origin git@github.com:ucsb-cs56-m18/lab01-cgaucho01-ldelplaya99.git`
 
 7.  Now, pull the starter code into your repo with this command
 
@@ -81,7 +81,7 @@ Overview of this lab
     git pull starter master
     ```
 
-    This should pull in [the starter code for lab01](https://github.com/ucsb-cs56-w18/STARTER_lab01), which is very similar (though not identical) to the code in step 8 of the  [Rational Tutorial](https://ucsb-cs56-pconrad.github.io/tutorials/rational/).
+    This should pull in [the starter code for lab01](https://github.com/ucsb-cs56-m18/STARTER_lab01), which is very similar (though not identical) to the code in step 8 of the  [Rational Tutorial](https://ucsb-cs56-pconrad.github.io/tutorials/rational/).
    
 8.  Now, do a `git push origin master` to push this code back to your own
     private repo.
@@ -159,7 +159,7 @@ So, don't repeat yourself:
 # Grading:
 
 * Part of your grade is determined by the points shown on submit.cs
-* The remainder is determined by the following:
+* The remainder is determined by manual grading using the following rubric:
    * (25 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
      adding partner as collaborator)
    * (25 pts) Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README as indicated?
