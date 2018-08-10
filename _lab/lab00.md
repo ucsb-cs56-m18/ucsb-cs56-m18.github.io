@@ -95,35 +95,38 @@ Visit <https://github.ucsb.edu> and login with your CSIL account, to establish y
 
 ## Step 5: Some Java coding
 
-Login to your CSIL account, and create a ~/cs56 subdirectory.
+1.   Login to your CSIL account, and create a ~/cs56 subdirectory.
 
-In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
- the following code.  Call the file `Hello.java`.  Put your name instead of `Your Name Here`.
+2.   In that directory, use your favorite text editor (e.g. `vim`, `emacs`) to create a file containing
+   the following code.  Call the file `Hello.java`.  Put your name instead of `Your Name Here`.
 
-(Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).)
+   (Side note: if you prefer it, two new editors are now available on CSIL staring Summer 2018: [atom](https://ucsb-cs16.github.io/topics/atom/) and [visual studio code](https://ucsb-cs16.github.io/topics/code/).)
 
-```java
+   ```java
+   /**
+     @author Your Name Here
+   */
 
-/**
-  @author Your Name Here
-*/
+   public class Hello {
 
-public class HelloWorld {
+     public static void main(String[] args) {
+        System.out.println("Hello, World!");
+     }
 
-  public static void main(String[] args) {
-    System.out.println("Hello, World!");
-  }
+   }
+   ```
 
-}
-```
+   NOTE: Please don't put literally `Your Name Here` in the code above.  Write your actual name.  Thanks!
 
-4. Compile the file with the command `javac Hello.java`
+   4. Compile the file with the command `javac Hello.java`
 
-5. Run the file with the command `java Hello`
+   5. Run the file with the command `java Hello`
 
-6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
+   6. Navigate to <https://gradescope.com>.   You should have an account invitation in your email.  If you don't, ask an instructor, TA or mentor for assistance.
 
-7. Upload your work to Gradescope.com for grading.    If you are working from your own machine (i.e. ssh'ing into CSIL), you'll need to transfer the file to your own machine before you can upload it for grading.    
-    * If you aren't sure how, there is a link on the CS16 web page that explains [how to copy files between CSIL and your own machine](https://ucsb-cs16.github.io/topics/csil_copying_files/).
+   7. Upload your work to Gradescope.com for grading.    If you are working from your own machine (i.e. ssh'ing into CSIL), you'll need to transfer the file to your own machine before you can upload it for grading.    
+      * If you aren't sure how, there is a link on the CS16 web page that explains [how to copy files between CSIL and your own machine](https://ucsb-cs16.github.io/topics/csil_copying_files/).
 
-8. Once you see that you have a score of 100 for the lab on Gradescope, you are *done* with lab00.  
+   8. Once you see that you have a score of 100 for the lab on Gradescope, you are *done* with lab00.   If [lab01](/labs/lab01/) is ready, start on lab01.  Otherwise, ask a mentor or TA whether there is anything else to do today before you just
+          take off.
+   
