@@ -5,7 +5,6 @@ ready: false
 desc: "Tools for java development"
 assigned: 2018-08-09 09:30
 due: 2018-08-16 23:59
-submit_cs: https://submit.cs.ucsb.edu/form/project/940/submission
 org: ucsb-cs56-m18
 herokuapp: "https://ucsb-cs-github-linker.herokuapp.com/"
 ---
@@ -158,7 +157,7 @@ So, don't repeat yourself:
 
 # Grading:
 
-* Part of your grade is determined by the points shown on submit.cs
+* Submit on Gradescope.  Part of your grade is determined by the automatic points assigned  on Gradescope for automated tests.
 * The remainder is determined by manual grading using the following rubric:
    * (25 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
      adding partner as collaborator)
