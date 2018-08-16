@@ -1,5 +1,5 @@
 ---
-title: CS56, Winter 2018, pconrad
+title: CS56, Summer 2018, pconrad
 ---
 
 # {{site.course}}, {{site.quarter}}
