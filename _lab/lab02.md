@@ -5,9 +5,8 @@ ready: false
 desc: "Polynomials"
 assigned: 2018-08-16 09:30
 due: 2018-08-23 23:59
-submit_cs_link: "https://submit.cs.ucsb.edu/form/project/941/submission"
-github_org: "ucsb-cs56-w18"
-starter_repo: "https://github.com/ucsb-cs56-w18/STARTER_lab02"
+github_org: "ucsb-cs56-m18"
+starter_repo: "https://github.com/ucsb-cs56-m18/STARTER_lab02"
 last_before: "Midterm Exam E01"
 ---
 
@@ -41,9 +40,9 @@ Then, create an empty directory for lab02, do a `git init` and then add remotes 
 
 The starter code is in <{{page.starter_repo}}>.  Visit that page for the approrpiate URL to add the `starter` remote.
 
-## If pairing, register your pair on submit.cs
+## If pairing, register your pair on Gradescope
 
-On submit.cs, on the page {{page.submit_cs}}, there should be a blue "Join Groups" button.     Use this to add another student to your pair.
+On Gradescope, on the page for {{page.num}}, there should be an option to join a group.  Please use this to add your pair partner for this assignment.
 
 ## Working in a pair? Switch navigator/driver frequently and tradeoff who commits
 
@@ -360,14 +359,6 @@ Now, you are almost done. The last four steps are to:
 -   do a final commit and push for any last minute changes
 -   submit on Gauchospace.
 
-### Checking over your code
-
-First, check your code Check it against two things:
-
-1.  **ALL OF THE INSTRUCTIONS IN THIS LAB ASSIGNMENT.** Start over at the very first step. If you are working a pair, have one pair partner read through the instructions, and have the other pair partner check the code (or in the case of the javadoc, check both the code, and what appears on the web.)
-2.  **ALL OF THE ITEMS IN THE GRADING RUBRIC**. The grading rubric for this lab appears near the end of this file. It is the checklist that the TAs and instructor will use to determine your lab grade. Again, if working in a pair, divide up the responsibility (switching roles)—one person read the rubric items out loud, and the other person checks.
-
-Even if you "solo programmed" this lab, you may want to see if you can find someone in the lab that also solo programmed, and ask him/her to be a "rubric buddy" with whom you can take turns doing this checklist step.
 
 ### Updating javadoc
 
@@ -381,22 +372,19 @@ Then do the steps to publish the updated javadoc to your public repo.
 Go through the git steps one last time in case you made any last minute changes. Be sure that your repo is up to date. When it is, you are ready to submit on Gauchospace.
 
 
-Step 5: Submitting via submit.cs
+Step 5: Submitting via Gauchospace
 --------------------------------
 
-UPDATE: We are using submit.cs for {{page.num}}.
 
-Please download a `.zip` file from your github repo, rename it to <tt>{{page.num}}</tt>`.zip` and submit it at: <{{page.submit_cs_link}}>
+Please download a `.zip` file from your github repo and submit it to the {{page.num}} entry on Gradescope.
 
-* If you worked in a pair, please register your pair as a *group* in submit.cs for {{page.num}} before submitting.  One partner's submission
-  on submit.cs counts for both of you.
-* If you haven't yet registered for submit.cs, register on the submit.cs page with your umail address, then join the {{site.course}}_{{site.qtr|downcase}} course.
+* If you worked in a pair, please register your pair as a *group* on Gradescope for {{page.num}} before submitting.  One partner's submission counts for both of you.
 
 
 # Grading:
 
-* Part of your grade is determined by the points shown on submit.cs
+* Part of your grade is determined by the points shown on Gradescope
 * The remainder is determined by the following:
-   * (25 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
+   * Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
      adding partner as collaborator)
-   * (25 pts) Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README, and make changes to build.xml as indicated?
+   * Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README, and make changes to build.xml as indicated?
