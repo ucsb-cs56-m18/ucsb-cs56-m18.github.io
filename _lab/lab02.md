@@ -29,7 +29,7 @@ You will also apply what you are learning from your reading about inheritance, o
 
 You may work as a pair, or individually on this lab (your choice).  Name your repo as appropriate.
 
-Create your repo the same way you did for [lab01](/lab/lab01/):
+Create your repo the same way you did for [lab01](/lab/lab01/), this time make sure to initialize the repo with a .gitignore and README.md:
 
    * under the <tt>{{page.org}}</tt> organization
    * name should be <tt>{{page.num}}-githubid</tt> OR <tt>{{page.num}}-githubid1-githubid2</tt> as appropriate
