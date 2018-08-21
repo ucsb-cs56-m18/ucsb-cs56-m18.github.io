@@ -107,11 +107,6 @@ work in a shared hosting environment such as CSIL is somewhat painful.)
 
 Create a new Heroku App.  Call it <tt>cs56-{{site.qtr}}-{{page.num}}-yourname</tt>
 
-# Step 4: Add these lines to your pom.xml
-
-(Original source for these instructions is here, but they've been modified to avoid the Heroku Toolbelt.)
-
-
 
 
 
