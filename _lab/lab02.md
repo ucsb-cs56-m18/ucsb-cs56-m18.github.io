@@ -4,7 +4,7 @@ num: lab02
 ready: true
 desc: "Polynomials"
 assigned: 2018-08-16 09:30
-due: 2018-08-23 23:59
+due: 2018-08-27 23:59
 github_org: "ucsb-cs56-m18"
 starter_repo: "https://github.com/ucsb-cs56-m18/STARTER_lab02"
 last_before: "Midterm Exam E01"
