@@ -8,7 +8,15 @@ The first table shows the *normal* office hours times.  Be sure to *also scroll 
 
 # Normal office hours schedule
 
+<style>
+div.officeHours iframe { width: 100%; height: 1400px; overflow: scroll; }  
+</style>
+
+<div class="officeHours">
+  
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWGznnNtZfQ07djiQONGad0eCjV_ohMEgyHEjatNw5KaVCq3ehfEHC9ElwZPYYr2qpg3R7S6DsaYii/pubhtml?widget=true&amp;headers=false"></iframe>
+
+</div>
 
 # Google Calendar with up-to-date weekly variations
 
