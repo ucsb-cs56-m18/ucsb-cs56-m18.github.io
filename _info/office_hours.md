@@ -4,6 +4,14 @@ layout: default
 ready: true
 ---
 
+The first table shows the *normal* office hours times.  Be sure to *also scroll down* to the Google Calendar below also to see if there are any variations from week to week.
+
+# Normal office hours schedule
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWGznnNtZfQ07djiQONGad0eCjV_ohMEgyHEjatNw5KaVCq3ehfEHC9ElwZPYYr2qpg3R7S6DsaYii/pubhtml?widget=true&amp;headers=false"></iframe>
+
+# Google Calendar with up-to-date weekly variations
+
 <style type="text/css">
 .pageBreakBefore {page-break-before:always;}
 .style1 {color: #999999}
