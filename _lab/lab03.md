@@ -105,11 +105,51 @@ Having that page up and working is part of your grade (one of the manually grade
 
 You can also set up the test case coverage report there.
 
+You may notice, when you generate the javadoc, that there are some warnings:
+
+```
+[WARNING] Javadoc Warnings
+[WARNING] /Users/pconrad/github/cs56/STARTER_lab03/src/main/java/edu/ucsb/cs56/pconrad/menuitem/MenuItem.java:26: warning: no @return
+[WARNING] public String getPrice() {
+[WARNING] ^
+[WARNING] /Users/pconrad/github/cs56/STARTER_lab03/src/main/java/edu/ucsb/cs56/pconrad/menuitem/MenuItem.java:41: warning: no @return
+[WARNING] public String getPrice(int width) {
+[WARNING] ^
+```
+
+By looking at the other examples of Javadoc, and reading about how to write correct Javadoc online, you should be able to figure out how to remove these warnings.  We'll check for that when we do the "manual grading" part of the assignment.
+
 # Step 3: Start writing code.
 
 In this lab, you'll be implementing several methods of two classes that represent a restaurant Menu, composed of MenuItems.
 
-Here are the methods you'll need to implement:
+A MenuItem represents an item on the menu of a restaurant.  It has three attributes:
+* the menu item name, e.g. `"Small Poke Bowl"`
+* the price, in cents (e.g an item that costs $1.49 is represented by the integer 149)
+* a category such as `"Beverages"` or `"Poke Bowls"`
 
+The constructor has the signature:
+```
+public MenuItem(String name,
+                int priceInCents,
+                String category)
+```
+
+Here are the instance methods you'll need to implement for `MenuItem`
+
+| Modifier and Type	| Method | Description |
+|-|-|
+|String	| getCategory() | Returns the category of the menu item |
+|String	| getName() | Returns the name of the menu item |
+|String	| getPrice() | Returns the price, formatted as a string with a $.
+|String	| getPrice(int width) | Returns the price, formatted as a string with a $, right justified in a field with the specified width. |
+| int	| getPriceInCents() | get the price in cents only |
+| String	| toString() | return a string in csv format, in the order name,price,cateogry. <br> For example: `"Small Poke Bowl,1049,Poke Bowls"`<br>In this case, the price is unformatted; just an integer number of cents. |
+
+There is also a class `Menu`, which wraps an `ArrayList<MenuItem>`.
+
+The constructor takes no arguments, and simply initializes an empty ArrayList. (It is given in the starter code.)
+
+The methods for `Menu` are as follows:
 
 
