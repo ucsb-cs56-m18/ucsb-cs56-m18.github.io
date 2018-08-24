@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Testing and Sorting with Lambdas"
 assigned: 2018-08-24 09:30
 due: 2018-08-31 12:30
