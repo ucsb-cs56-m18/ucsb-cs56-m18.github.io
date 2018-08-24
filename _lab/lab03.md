@@ -42,6 +42,7 @@ Step-by-Step
 You may work individually or as a pair on this lab.  However, if you work as a pair, please:
 * Work with someone *else* from your same team (i.e. someone else assigned to the same mentor as you)
 * Work with someone *different* from who you worked with on lab02.
+* Remember to name the repo correctly, and also to add your pair on Gradescope each time you submit
 
 If there is some reason this is not feasible, please check with your mentor before starting.
 
@@ -51,6 +52,8 @@ Create your repo the same way you did for [lab01](/lab/lab01/) and [lab02](/lab/
    * name should be <tt>{{page.num}}-githubid</tt> OR <tt>{{page.num}}-githubid1-githubid2</tt> as appropriate
    * private, and initially *empty* (no README.md, .gitignore or LICENSE).
    * add your pair partner as a collaborator
+   
+   
 
 Clone this empty repo into your `~/cs56` directory, or wherever you prefer to work.
 
@@ -129,6 +132,31 @@ A MenuItem represents an item on the menu of a restaurant.  It has three attribu
 * the price, in cents (e.g an item that costs $1.49 is represented by the integer 149)
 * a category such as `"Beverages"` or `"Poke Bowls"`
 
+A Menu is simply an encapsulated list of MenuItems.  What Menu adds over ArrayList is the ability to sort the menu in various ways
+that might be useful in producing formatted menus.
+
+Note that the starter code:
+* Has stubs for SOME of the needed methods, but NOT ALL of them
+* Has unit tests for SOME of the needed methods, but NOT ALL of them
+
+So you'll need to do a bit more work than you may be used to.
+
+I suggest that you work in this order:
+* <b>First, Add stubs for all of the methods that don't have them yet.</b>  
+   * Until you do this, you won't be able to run any of the instructor unit tests on Gradescope.
+   * The reasons is that the instructor tests won't compile against your code unless and until you have those methods.
+* <b>Then, try submitting on Gradescope</b>
+   * At this point, you should have a clean compile for both the student and instructor code, though you won't be passing most of the unit tests.
+* Then, one at a time, work on each method
+   * If the method doesn't have a unit test yet, <b>write the test first and see it fail</b>.
+   * Then make the test pass.
+   * Then submit on Gradescope and see if the test for that method passes on Gradescope
+   * Continue until all of your methods work.
+
+I suggest getting the `toString()` of the `MenuItem` class to work before trying the `csv()` method of `Menu` or any of the extended versions of that method that require sorting.
+
+# Details about methods of MenuItem
+
 The constructor has the signature:
 ```
 public MenuItem(String name,
@@ -151,6 +179,46 @@ There is also a class `Menu`, which wraps an `ArrayList<MenuItem>`.
 
 The constructor takes no arguments, and simply initializes an empty ArrayList. (It is given in the starter code.)
 
+# Details about methods of Menu
+
+
 The methods for `Menu` are as follows:
 
+| Modifier and Type	| Method | Description |
+|-|-|
+|void	add(MenuItem mi) | add a menu item to the menu (to the wrapped ArrayList)|
+|String|	csv() | Produce a listing of each item in csv format, with newlines between each item.  Order is whatever order the items are currently in the ArrayList |
+|String|	csvSortedByName() | same as `csv()`, but the items should be sorted in lexicographic order by name. |
+|String|	csvSortedByCategoryThenName() | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name.  |
+|String|	csvSortedByCategoryThenPriceDescendingThenByName() | same as `csv()`, but the items should be sorted by category.  With the same category, the items should be sorted by name. |
+|String|	csvSortedByPriceThenName() | |
 
+# When all your tests pass
+
+* Be sure that you've added your pair partner to your submissions on Gauchospace
+* Check your test coverage:
+   * Run: `mvn test jacoco:report site:deploy`
+   * Run: `git add docs; git commit -m "publish docs"; git push origin master`
+   * Be sure that you've set up your repo settings to publish the `docs` directory of the `master` branch to github pages
+   * Put a link to your github pages site in your README.md (e.g. <tt>https://ucsb-cs56-m18.github.io/{{page.num}}-githubid1-githubid2</tt>)
+   * Visit the link <tt>https://ucsb-cs56-m18.github.io/{{page.num}}-githubid1-githubid2/jacoco/index.html</tt> or just click the "jacoco-test-coverage" link on your page.
+   
+Some of the points in the manual inspection may be awarded on the basis of having good test coverage.  While 100% test coverage is not always the goal, in this particular exercise, it *should be possible*.    So if you see that you don't have 100% test coverage, go back and write some additional unit tests.
+
+## How to read the test coverage reports
+
+* If any line of code is red, that means it is not tested at all&mdash;it is being missed by *line coverage*
+* If a line of code is yellow, it means there are multiple ways to execute the line.
+   * it may have an if/else, or a boolean expression involving `&&` or `||`, and thus there are multiple paths through the code (multiple branches).  
+   * Yellow means it is being missed by *branch coverage*; some branches are covered, and others are not.   
+   * Think about the multiple paths through the code and be sure your tests are coverage all of them.
+
+# An important point about academic honesty
+
+Yes, I am aware that it is possible to "cheat" on this lab by looking at the jacoco reports of other students and pairs to access their source code.   Even though the repos are private, the jacoco test coverage reports are public, and you can browse the source code.   I strongly encourage you to NOT do that.
+
+Ultimately, I'd like to find a way to easily obtain test coverage reports without leaking the source code.  But in the meantime, I'm simply relying on your sense of ethics and honor to NOT LOOK.    I decided the educational value of introducing test-coverage outweighed the risk from potential academic dishonesty.
+
+If you do copy code from other students by looking at their test coverage report, it will be pretty obvious.   And, the biggest problem is that you'll miss the learning opportunity in this assignment, which will help you prepare for the exam next Thursday.
+
+# End of description for {{page.num}}
