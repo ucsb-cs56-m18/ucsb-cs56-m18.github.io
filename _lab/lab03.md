@@ -90,7 +90,7 @@ Here are the commands you'll need as you work with the code. Try them out now.
 | compile the code | `mvn compile` |
 | reset everything | `mvn clean` |
 | run the tests | `mvn test` |
-| generate javadoc | `mvn site site:deploy` |
+| generate javadoc | `mvn javadoc:javadoc site:deploy` |
 | generate a report of test coverage | `mvn test jacoco:report site:deploy` |
 | generate a jar file | `mvn package` |
 
