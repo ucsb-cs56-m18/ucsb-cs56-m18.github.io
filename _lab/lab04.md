@@ -1,10 +1,10 @@
 ---
 layout: lab
-num: lab03
+num: lab04
 ready: false
 desc: "Intro to Web Applications"
-assigned: 2016-08-22 09:30:00.00-7
-due: 2016-08-31 17:00:00.00-7
+assigned: 2016-08-28 09:30
+due: 2016-09-01 23:59
 ---
 
 <div style="display:none" >
