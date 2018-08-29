@@ -303,8 +303,19 @@ After: change the version to `0.8.2`:
 
 Before:
 ```
+<!-- Test case coverage report -->
+      <plugin>
+	<groupId>org.jacoco</groupId>
+	<artifactId>jacoco-maven-plugin</artifactId>
+	<version>0.7.7.201606060606</version>
+	...
 ```
 
-After:
-```
+After (change version to `0.8.2`):
+
+```<!-- Test case coverage report -->
+      <plugin>
+	<groupId>org.jacoco</groupId>
+	<artifactId>jacoco-maven-plugin</artifactId>
+	<version>0.8.2</version>
 ```
