@@ -3,7 +3,7 @@ layout: examHandoutNoName
 num: e01
 ready: true
 desc: "Handout B"
-qtr: W18
+qtr: M18
 ---
 
 <style>
@@ -103,157 +103,72 @@ java.lang.Object
 </div>
 </div>
 
-<h2 class="page-break-before">Code for Factors problems</h2>
+<h2 class="page-break-before">Java concepts related to sorting</h2>
 
-<table>
-<tr>
-<td markdown="1" colspan="2">
+<h2>Handout B, p. 1: Useful Reference Items</h2>
 
-## Contents of `AllFactors.java`
+Here are a few reminders of things we discussed in class, but that you might
+reasonably need a "reference" for if you were using them in the real world.
 
-```java
-public class AllFactors {
-    public static void main(String [] args) {
-	for (int i=1;i<=50;i++) {
-	    Factors f = Factors.primeFactors(i);
-	    System.out.println("i: " + i + " factors: " + f); 
-	}
-    }
-}
-```
+The interface `java.util.Comparator<T>` includes the following
+method signature:
 
-</td>
-</tr>
+<div markdown="1"
+     style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
+     class="hanging-indent-table">
 
-<tr>
-<td markdown="1">
+| `int` | `compare(T o1, T o2)` | Compares this object with the specified object for order. <br>Returns a negative integer, zero, or a positive integer <br>as this object is less than, equal to, or greater than the specified object. |
 
-## Output of `main` from class `AllFactors`
+</div>
 
-```
-i: 1 factors: [1]
-i: 2 factors: [2]
-i: 3 factors: [3]
-i: 4 factors: [2, 2]
-i: 5 factors: [5]
-i: 6 factors: [2, 3]
-i: 7 factors: [7]
-i: 8 factors: [2, 2, 2]
-i: 9 factors: [3, 3]
-i: 10 factors: [2, 5]
-i: 11 factors: [11]
-i: 12 factors: [2, 2, 3]
-i: 13 factors: [13]
-i: 14 factors: [2, 7]
-i: 15 factors: [3, 5]
-i: 16 factors: [2, 2, 2, 2]
-i: 17 factors: [17]
-i: 18 factors: [2, 3, 3]
-i: 19 factors: [19]
-i: 20 factors: [2, 2, 5]
-i: 21 factors: [3, 7]
-i: 22 factors: [2, 11]
-i: 23 factors: [23]
-i: 24 factors: [2, 2, 2, 3]
-i: 25 factors: [5, 5]
-i: 26 factors: [2, 13]
-i: 27 factors: [3, 3, 3]
-i: 28 factors: [2, 2, 7]
-i: 29 factors: [29]
-i: 30 factors: [2, 3, 5]
-i: 31 factors: [31]
-i: 32 factors: [2, 2, 2, 2, 2]
-i: 33 factors: [3, 11]
-i: 34 factors: [2, 17]
-i: 35 factors: [5, 7]
-i: 36 factors: [2, 2, 3, 3]
-i: 37 factors: [37]
-i: 38 factors: [2, 19]
-i: 39 factors: [3, 13]
-i: 40 factors: [2, 2, 2, 5]
-i: 41 factors: [41]
-i: 42 factors: [2, 3, 7]
-i: 43 factors: [43]
-i: 44 factors: [2, 2, 11]
-i: 45 factors: [3, 3, 5]
-i: 46 factors: [2, 23]
-i: 47 factors: [47]
-i: 48 factors: [2, 2, 2, 2, 3]
-i: 49 factors: [7, 7]
-i: 50 factors: [2, 5, 5]
-```
+The interface `java.lang.Comparable<T>` includes the following
+method signature:
 
-</td>
-<td markdown="1">
+<div markdown="1"
+     style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
+     class="hanging-indent-table">
 
-<!-- <h2 markdown="1" class="page-break-before">Handout B Page 2</h2> -->
+| `int` | `compareTo(T o)` |  Compares its two arguments for order. <br>Returns a negative integer, zero, or a positive integer <br>as the first argument is less than, equal to, or greater than the second. |
 
-## Contents of `FactorsTest.java`
+</div>
 
-```java
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
-public class FactorsTest {
+The class `java.util.ArrayList<E>` includes this method:
 
-    @Test
-    public void test_rlf() {
-	Factors f = new Factors(new int [] {2,15});
-	f.replaceLastFactor(3);
-	assertEquals(new Factors(new int [] {2,3}), f);
-    }
-	    
-    @Test
-    public void test_af() {
-	Factors f = new Factors(new int [] {2,3});
-	f.addFactor(5);
-	assertEquals(new Factors(new int [] {2,3,5}), f);
-    }
+<div markdown="1"
+     style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
+     class="hanging-indent-table">
 
-    
-    @Test
-    public void test1() {
-	Factors f = new Factors(new int [] {60});
-	Factors expected = new Factors(new int [] {2,30});
-	f.addNextFactor();
-	assertEquals(expected, f);
-    }
+| `void` | `sort(Comparator<? super E> c)` | Sorts this list according to the order induced by the specified `Comparator`. |
 
-    @Test
-    public void test2() {
-	Factors f = new Factors(new int [] {2,30});
-	Factors expected = new Factors(new int [] {2,2,15});
-	f.addNextFactor();
-	assertEquals(expected, f);
-    }
+</div>
 
-    @Test
-    public void test3() {
-	Factors f = new Factors(new int [] {2,2,15});
-	Factors expected = new Factors(new int [] {2,2,3,5});
-	f.addNextFactor();
-	assertEquals(expected, f);
-    }
 
-    @Test
-    public void test4() {
-	Factors f = new Factors(new int [] {2,2,3,5});
-	Factors expected = new Factors(new int [] {2,2,3,5});
-	f.addNextFactor();
-	assertEquals(expected, f);
-    }
 
-    @Test
-    public void test5() {
-	Factors f = Factors.primeFactors(60);
-	Factors expected = new Factors(new int [] {2,2,3,5});
-	assertEquals(expected, f);
-    }	    
-}
 
-```
+<div markdown="1"
+     style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
+     class="hanging-indent-table">
 
-</td>
-</tr>
-</table>
+The class `java.util.Collections` contains the following static method:
+
+|`static <T extends Comparable<? super T>> void` |  `sort(List<T> list)` | Sorts the specified list into ascending order, <br>according to the natural ordering of its elements. |
+
+</div>
+
+The classes `java.lang.String` and `java.lang.Double` implement `Comparable<String>` and `Comparable<Double>`, each in the
+way that you would expect.
+
+# Other potentially useful methods
+
+In `java.lang.Integer`:
+
+<div markdown="1"
+     style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
+     class="hanging-indent-table">
+
+
+|`public static int` | `compare(int i1, int i2)` |  Compares the two specified int values.  <br> The sign of the int value returned <br>matches the contract of the `compare` method in `java.util.Comparator` |
+
+</div>
 
