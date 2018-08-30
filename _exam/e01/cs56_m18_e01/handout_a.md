@@ -183,8 +183,8 @@ In `java.lang.Integer`:
 
 <style>
 div.main-dot-java {
-		  font-size: 100%;
-		  line-height: 100%;
+		  font-size: 120%;
+		  line-height: 110%;
 }
 
 </style>
