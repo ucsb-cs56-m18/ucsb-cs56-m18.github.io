@@ -188,7 +188,7 @@ div.main-dot-java {
 }
 
 </style>
-<div class="main-dot-java">
+<div class="main-dot-java" markdown="1">
 
 {% highlight java linenos %}
 import java.util.ArrayList;
@@ -217,7 +217,7 @@ public class Main {
 $ java Main
 [[Chris Lee,1234567], [Taylor Wu,2468013], [Jim Cortez,2468013], [Fred Smith,2468013], [Chris Lee,7654321]]
 $
-
+```
 
 </div>
 
