@@ -211,6 +211,13 @@ public class Main {
 }
 {% endhighlight %}
 
+## Output of Main:
+
+```
+$ java Main
+[[Chris Lee,1234567], [Taylor Wu,2468013], [Jim Cortez,2468013], [Fred Smith,2468013], [Chris Lee,7654321]]
+$
+
 
 </div>
 
