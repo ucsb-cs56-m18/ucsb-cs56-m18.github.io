@@ -105,3 +105,64 @@ java.lang.Object
 
 <h2 markdown="1" class="page-break-before">Handout B, Page 2</h2>
 
+<style>
+div.student-dot-java {
+ font-size: 100%;
+ line-height: 100%;
+}
+</style>
+
+<div markdown="1" class="student-dot-java">
+
+{% highlight java linenos %}
+public class Student implements Comparable<Student> {
+
+    private String name;
+    private int perm;
+    private String major;
+
+    public Student (String name, int perm, String major) {
+	this.name = name;
+	this.perm = perm;
+	this.major = major;
+    }
+
+    public String getName() { return name; }
+    public int getPerm() { return perm; }
+    public String getMajor() { return major; }
+
+    @Override
+    public String toString() {
+
+       __________________________________
+    }
+    
+    @Override
+    public boolean equals(Object o) {
+	if (this == o) return true;
+	if (o == null || getClass() != o.getClass()) return false;
+	Student s = (Student) o;
+
+	_____________________________________________
+    }
+
+    @Override 
+    public int hashCode() {
+      ____________________
+    }
+    
+    /**
+       Natural order is lexicographic order by name.  Break ties by by
+       perm; e.g. if two students are named Chris Lee, put them in
+       order by their perm.
+     */
+
+    @Override
+    public int compareTo(Student s) {
+
+       _______________________
+    }
+}
+{% endhighlight %}
+
+</div>
