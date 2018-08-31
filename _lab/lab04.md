@@ -370,3 +370,5 @@ A few that may be particularly interesting:
 * A REST service: <http://sparkjava.com/tutorials/reducing-java-boilerplate>
    * See also: <https://www.infoq.com/articles/rest-introduction>
 * Using a Database: <http://sparkjava.com/tutorials/sql2o-database>
+
+Share about what you are learning on Piazza.  Help one another out.  Make this a real learning community.
