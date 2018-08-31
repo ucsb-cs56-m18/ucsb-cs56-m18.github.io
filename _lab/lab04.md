@@ -5,6 +5,7 @@ ready: false
 desc: "Intro to Web Applications"
 assigned: 2016-08-28 09:30
 due: 2016-09-01 23:59
+gauchospace_url: "https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=1463811"
 ---
 
 <div style="display:none" >
@@ -145,13 +146,95 @@ heroku create cs56-m18-githubid-lab03
 
 # Step 4: Modify the pom.xml file to refer to your heroku app
 
-In the `pom.xml` file, locate this section:
+In the `pom.xml` file, locate this section.  It is a `plugin` element, and should be located inside the `plugins` element.
 
 ```xml
+  <plugin>
+	<groupId>com.heroku.sdk</groupId>
+	<artifactId>heroku-maven-plugin</artifactId>
+	<version>2.0.3</version>
+	<configuration>
+          <jdkVersion>1.8</jdkVersion>
+          <!-- Use your own application name -->
+	  <!-- at Heroku CLI, use heroku apps to list, or use Heroku Dashboard -->
+          <appName>ucsb-cs56-pconrad-08-28-18</appName> 
+          <processTypes>
+            <!-- Tell Heroku how to launch your application -->
+            <!-- You might have to remove the ./ in front   -->
+            <web>java $JAVA_OPTS -jar target/sparkjava-demo-01-1.0-jar-with-dependencies.jar</web>
 
+          </processTypes>
+	</configuration>
+   </plugin>
 ```
 
+The line you need to change is the one that says:
 
+```
+ <appName>ucsb-cs56-pconrad-08-28-18</appName> 
+```
+
+Change this to the name of your heroku app.  If you've forgotten it, you can locate it either by typing:
+
+```
+heroku apps
+```
+
+or by logging into the Heroku Dashboard in a web browser at <https://dashboard.heroku.com/apps>
+
+Then, type the following to deploy your web app to Heroku:
+
+```
+mvn package heroku:deploy
+```
+
+You should see a lot of output.  At the end of this output, you should see something like this:
+
+```
+...
+[INFO] remote: -----> heroku-maven-plugin app detected
+[INFO] remote: -----> Installing JDK 1.8... done
+[INFO] remote: -----> Discovering process types
+[INFO] remote:        Procfile declares types -> web
+[INFO] remote: 
+[INFO] remote: -----> Compressing...
+[INFO] remote:        Done: 54M
+[INFO] remote: -----> Launching...
+[INFO] remote:        Released v10
+[INFO] remote:        https://ucsb-cs56-pconrad-08-28-18.herokuapp.com/ deployed to Heroku
+[INFO] remote: 
+[INFO] -----> Done
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 39.539 s
+[INFO] Finished at: 2018-08-31T01:56:14-07:00
+[INFO] Final Memory: 29M/268M
+[INFO] ------------------------------------------------------------------------
+```
+
+The line that you are looking for is this one:
+
+```
+[INFO] remote:        https://ucsb-cs56-pconrad-08-28-18.herokuapp.com/ deployed to Heroku
+```
+
+That is the URL where you should now be able to see your webapp running.  This URL should be accessible from any web browser connected to the internet.
+
+# What if it doesn't work?
+
+If it doesn't work, try these things before asking a mentor, TA, or instructor for help.
+
+1. Make sure you are logged into Heroku at CLI with `heroku login`.  If you exited your CSIL shell (logged out) and logged back in again, you have to login to Heroku again.  Then repeat the commands.
+2. Try, try running `heroku apps`.  Make sure the `<appname>app-name-goes-here</appname>` element in the `heroku-maven-plugin` section of your `pom.xml` matches the name of your heroku app exactly.
+3. If it does, try `heroku logs --app appname` (substitute the name of your app where you see `appname`).  You'll see the log output of that app on Heroku.   
+   * You may find it helpful to open a second Terminal, login to CSIL and the Heroku CLI, and use `heroku logs --app appname --tail`, which keeps the log output running continously.
+   * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
+   * You can navigate to this from <https://dashboard.heroku.com/> by selecting your app, clicking on it,  selecting the `More` menu at upper right, and the selecting `Logs`.
+
+# When are we done with this lab?
+
+When you have a running web app, visit <{{page.gauchospace_url}}>
 
 
 
