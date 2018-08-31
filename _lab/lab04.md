@@ -11,7 +11,9 @@ due: 2016-09-01 23:59
 Look here for formatted version: http://ucsb-cs56-m18.github.io/lab/lab03
 </div>
 
-This is an individual lab on the topic of Java web apps on Heroku.
+This is an **individual** lab on the topic of Java web apps on Heroku.
+
+You may cooperate with one or more pair partners from your team to help in debugging and understanding the lab, but each person should complete the lab separately for themselves.
 
 Step 0: Understanding what we are trying to do
 ----------------------------------------------
@@ -98,14 +100,58 @@ You'll be asked for:
 
 Fork the sparkjava_01 tutorial repo into a public copy under your own github account.
 
-Use `mvn compile` and `mvn exec:java` to try to run the code and get a web app running on localhost (as shown in lecture).
+Use `mvn compile` and `mvn exec:java` to try to run the code and get a web app running on localhost.
 
-# Step 3: Create a new Heroku App using the Web Interface
+Note that in order to see this web app running, you'll need to be in a web browser on the same host that you are running your program on.  
+* For example, if you are running on `csil-04.cs.ucsb.edu`, you'll need to be running your web browser on `csil-04.cs.ucsb.edu`.   
+* If you are working in Phelps 3525 on `cstl-07.cs.ucs.edu`, you'll need to be running your web browser on `cstl-07.cs.ucsb.edu`.
 
-(Note: Some tutorials suggest downloading the "Heroku Toolbelt".   We are going to try to work without doing that, because getting it to 
-work in a shared hosting environment such as CSIL is somewhat painful.)
+If you are not sitting in the CSIL or CSTL lab, i.e. you are using ssh on a laptop to access CSIL, then you might need to test your webapp using a command line web client such as `curl` (curl stands for "C" the "URL").  For example, this command should show you the output from the `/` route for your webapp:
 
-Create a new Heroku App.  Call it <tt>cs56-{{site.qtr}}-{{page.num}}-yourname</tt>
+```
+curl http://localhost:4567
+```
+
+And
+
+```
+curl http://localhost:4567/hello
+```
+
+would show the output from the `/hello` route.
+
+This is not very satisfying.
+* The web app is only runnning as long as your program is executing. 
+* As soon as you CTRL/C the program to interrupt it, the web app is no longer available.
+* The web app is only available on the machine where you are running the program; not on the public internet.
+
+To get the web app running on the public internet, we'll need to use a cloud-computing platform such as Heroku.
+
+# Step 3: Create a new Heroku App using the Heroku CLI
+
+Logged into CSIL (or one of the machines in the CSTL, i.e. Phelps 3525), use this command to login to Heroku at the command line:
+
+```
+heroku login
+```
+
+Then, use this command to create a new web app running on heroku.  Substitute your github id in place of `githubid`.  Note that you should convert your githubid to all lowercase; heroku web-app names do not permit uppercase letters.
+
+A reminder that this is an individual lab, so you should complete it for yourself, i.e. there is only one github id in the name, not a pair of github ids.
+
+```
+heroku create cs56-m18-githubid-lab03
+```
+
+# Step 4: Modify the pom.xml file to refer to your heroku app
+
+In the `pom.xml` file, locate this section:
+
+```xml
+
+```
+
+
 
 
 
