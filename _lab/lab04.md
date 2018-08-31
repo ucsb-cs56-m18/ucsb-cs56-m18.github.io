@@ -232,10 +232,92 @@ If it doesn't work, try these things before asking a mentor, TA, or instructor f
    * You can also see your logs in a web browser at: <https://dashboard.heroku.com/apps/app-name/logs> (note that you need to put your `app-name` in the URL instead of `app-name`.  
    * You can navigate to this from <https://dashboard.heroku.com/> by selecting your app, clicking on it,  selecting the `More` menu at upper right, and the selecting `Logs`.
 
-# When are we done with this lab?
+# Step 5: Changing what is shown on the page
 
-When you have a running web app, visit <{{page.gauchospace_url}}>
+Go into the Java source code under `src` and locate the file `src/main/java/edu/ucsb/cs56/pconrad/SparkDemo01.java` 
 
+In this file, locate the line of code that says:
+
+```java
+spark.Spark.get("/", (req, res) -> "<b>Hello World!</b>\n");
+```
+
+As you can see, the method call `spark.Spark.get takes two parameters:
+* The first is a **route** such as "/"
+* The second is is a [lambda expression](https://ucsb-cs56-pconrad.github.io/topics/java_lambda_expressions/) that:
+   * takes two parameters, `req` and `res` (which stand for **request** and **response**), and
+   * returns the HTML that will be returned to the web client (i.e. your browser).
+
+Our first step is going to be to modify what is returned by the browser for the "/" route, which is the root of the web page.
+
+Before this line of code, add the following.  Be sure to replace `mygithubid` with your own github id:
+
+```
+String html = "<h1><a href='/hello'>Hello</a> World!</h1>\n" +
+    "<p>This web app is powered by \n" +
+    "<a href='https://github.com/mygithubid/sparkjava-01'>this github repo</a></p>\n";
+```
+
+Then, change the line of code 
+```
+spark.Spark.get("/", (req, res) -> "<b>Hello World!</b>\n");
+```
+
+To read:
+
+```
+spark.Spark.get("/", (req, res) -> html);
+```
+
+Then:
+* use `mvn compile` to make sure your code still compiles
+* (optional, but suggested in case you need to debug)
+   * use `mvn exec:java` to test locally, perhaps with `curl http://localhost:4567`
+* use `mvn package heroku:deploy` to push these changes to your running Heroku app
+
+If it works, then the word "Hello" and the words "this repo" should become clickable links.  
+* The words "this repo" should link to your github repo
+* However, the word "Hello" will be a dead link.
+
+Next, let's fix that by adding this line of code:
+
+After:
+```
+spark.Spark.get("/", (req, res) -> html);
+```
+
+Add this:
+
+```
+spark.Spark.get("/hello", (req, res) -> "<p><b>Hello, World!</b>  You just clicked the first link on my web app.</p>);
+```
+
+Deploy this code to Heroku in the same way you did with the other code.  Make sure both links now work.
+
+Ok, so far, we haven't really done anything we couldn't have done with a static web page.  But we have gotten a working Java web app running on Heroku, so it's start we can build on.  
+
+That's all for the *graded* part of this lab, but there is much more to learn.   Let's get this submitted for a grade first, but then the lab is NOT OVER.  There is a part that is not graded, but is super important as a means to learn the skills we'll need to build real webapps using Heroku, and you are encouraged to stay and work on that.  For that part, you are encouraged to work in pairs or even in groups of three or more with folks from your team.
+
+# Step 6: Submitting your work for grading
+
+When you have a running web app, visit <{{page.gauchospace_url}}> and make a submission.
+
+In the text area, enter something like this, substituting your repo name and your Heroku app name:
+
+```
+repo name: https://github.com/chrislee123/sparkjava-01
+on heroku: https://cs56-m18-chrislee123-lab03.herokuapp.com
+```
+
+Then, **and this is super important**, please make both of those URLs **clickable urls**.
+
+The instructions for doing so are here: <https://ucsb-cs56-pconrad.github.io/topics/gauchospace_clickable_urls/>
+
+When you've submitted for a grade, move on to the ungraded, but NOT OPTIONAL part of the lab where we explore an important SparkJava tutorial.
+
+# Step 7: SparkJava tutorial
+
+TBD
 
 
 
