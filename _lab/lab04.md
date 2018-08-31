@@ -289,7 +289,7 @@ spark.Spark.get("/", (req, res) -> html);
 Add this:
 
 ```
-spark.Spark.get("/hello", (req, res) -> "<p><b>Hello, World!</b>  You just clicked the first link on my web app.</p>);
+spark.Spark.get("/hello", (req, res) -> "<p><b>Hello, World!</b>  You just clicked the first link on my web app.</p>");
 ```
 
 Deploy this code to Heroku in the same way you did with the other code.  Make sure both links now work.
