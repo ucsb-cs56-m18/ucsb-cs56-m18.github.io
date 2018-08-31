@@ -323,6 +323,24 @@ In this part of the lab, you'll:
    * <https://github.com/ucsb-cs56-pconrad/spark-basic-structure>
    * If you are working with a pair partner (or perhaps even with more than two folks), add those folks as collaborators on your repo.
 * Create a heroku app called <tt>cs56-m18-githubid-{{page.num}}a<tt> (Note the `a` at the end.)
+* Modify the `pom.xml` in the same way that we modified the `pom.xml` before (i.e. modifying the `<appname>` element in the `heroku-maven-plugin`).
+* Compile and deploy in the same way that we did for the other webapp.
+	
+Then you should be able to see this running web app, which matches the tutorial at this link: <http://sparkjava.com/tutorials/application-structure>
 
+Read through this tutorial, and look through the code.  
+* It may be confusing at times, because as the tutorial itself acknowledges, "This is not really a full blown tutorial".  
+* Just follow along and learn what you can.  We'll go over this in lecture, but you'll get much more out of that lecture if you've gone through it yourself first.   
+* As questions arise, post them to Piazza.   I'll use your questions to know what points I particularly need to stress in Tuesday's lecture.
 
+NOTE that this example web app glosses over several details of how a "real" web app would be built:
+* It has hard coded usernames and passwords
+   * A real web app might use a "real" authentication method such as OAuth 
+* It has a hard coded list of books instead of using a database backend.  A real web app would use one of these:
+  * A SQL database back end such as MySQL or Postgres
+  * A NoSQL database back end such as MLab's implementation of MongoDB
+  * A persistance framework such as Google's Firebase
 
+We'll cover how to do those things in due course; but please know that the example web is already stuctured in a way that those things can be "plugged in" to their proper spot when we are ready for them.    There are so many things to learn that it's really helpful to make some simplifying assumptions up front.
+
+As you work through the tutorial, also be thinking about the web app *you* plan to build with your team, and the story maps that you started back in week two.  I'll be posting those images so that you can begin to try to link these ideas in your mind.  Come to lecture on Tuesday prepared to discuss how your web app might look when you build your "minimum viable product".
