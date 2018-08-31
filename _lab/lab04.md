@@ -317,6 +317,12 @@ When you've submitted for a grade, move on to the ungraded, but NOT OPTIONAL par
 
 # Step 7: SparkJava tutorial
 
+This part of the lab is NOT OPTIONAL.  It is REQUIRED. It is just not GRADED.
+
+You are expected to complete it as preparation for the work you'll be doing with your teams.
+
+The consequence of not doing it is simply that you'll be unprepared to contribute to your team's work as a team player. So, please do your best to complete this part as best you can.
+
 In this part of the lab, you'll:
 
 * Fork this repo to your own personal github id:
@@ -344,3 +350,22 @@ NOTE that this example web app glosses over several details of how a "real" web 
 We'll cover how to do those things in due course; but please know that the example web is already stuctured in a way that those things can be "plugged in" to their proper spot when we are ready for them.    There are so many things to learn that it's really helpful to make some simplifying assumptions up front.
 
 As you work through the tutorial, also be thinking about the web app *you* plan to build with your team, and the story maps that you started back in week two.  I'll be posting those images so that you can begin to try to link these ideas in your mind.  Come to lecture on Tuesday prepared to discuss how your web app might look when you build your "minimum viable product".
+
+You are finished with this part of the lab when you've:
+* read through the entire tutorial, AND
+* for each step, gone into the code, and actually tried changing things in the code to see what happens.
+
+For example, you might try changing the code of the library web app into a sort of "mock up" of some of the code you might have in your own project's web app (e.g. DogWalker, GauchoGains, GauchoCourses, etc.).
+
+When you feel there is nothing more you can learn from the tutorial, you are finished.  But, you are encouraged, at that point, to explore more topics from this web page of SparkJava tutorials:
+
+* <http://sparkjava.com/tutorials/>
+
+A few that may be particularly interesting:
+
+* Chat application: <http://sparkjava.com/tutorials/websocket-chat>
+* A mini Twitter clone: <http://sparkjava.com/tutorials/twitter-clone>
+* Unit testing: <http://sparkjava.com/tutorials/unit-testing>
+* A REST service: <http://sparkjava.com/tutorials/reducing-java-boilerplate>
+   * See also: <https://www.infoq.com/articles/rest-introduction>
+* Using a Database: <http://sparkjava.com/tutorials/sql2o-database>
