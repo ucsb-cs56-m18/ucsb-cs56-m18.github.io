@@ -159,6 +159,6 @@ So, don't repeat yourself:
 
 * Submit on Gradescope.  Part of your grade is determined by the automatic points assigned  on Gradescope for automated tests.
 * The remainder is determined by manual grading using the following rubric:
-   * (25 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
+   * <s>(25 pts)</s>(10 pts) Did you follow the instructions for setting up your repo? (naming, making it private, pulling in starter code,
      adding partner as collaborator)
-   * (25 pts) Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README as indicated?
+   * <s>(25 pts)</s>(10 pts) Did you publish your javadoc correctly, link to it from your README, and in general, tidy up your README as indicated?
