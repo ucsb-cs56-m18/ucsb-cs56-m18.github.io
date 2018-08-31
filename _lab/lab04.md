@@ -140,9 +140,9 @@ Then, use this command to create a new web app running on heroku.  Substitute yo
 
 A reminder that this is an individual lab, so you should complete it for yourself, i.e. there is only one github id in the name, not a pair of github ids.
 
-```
-heroku create cs56-m18-githubid-lab03
-```
+
+<tt>heroku create cs56-m18-githubid-{{page.num}}</tt>
+
 
 # Step 4: Modify the pom.xml file to refer to your heroku app
 
@@ -304,10 +304,10 @@ When you have a running web app, visit <{{page.gauchospace_url}}> and make a sub
 
 In the text area, enter something like this, substituting your repo name and your Heroku app name:
 
-```
-repo name: https://github.com/chrislee123/sparkjava-01
-on heroku: https://cs56-m18-chrislee123-lab03.herokuapp.com
-```
+<div style="font-family:monospace;">
+repo name: https://github.com/chrislee123/sparkjava-01<br>
+on heroku: https://cs56-m18-chrislee123-{{page.num}}.herokuapp.com<br>
+</div>
 
 Then, **and this is super important**, please make both of those URLs **clickable urls**.
 
@@ -317,7 +317,12 @@ When you've submitted for a grade, move on to the ungraded, but NOT OPTIONAL par
 
 # Step 7: SparkJava tutorial
 
-TBD
+In this part of the lab, you'll:
+
+* Fork this repo to your own personal github id:
+   * <https://github.com/ucsb-cs56-pconrad/spark-basic-structure>
+   * If you are working with a pair partner (or perhaps even with more than two folks), add those folks as collaborators on your repo.
+* Create a heroku app called <tt>cs56-m18-githubid-{{page.num}}a<tt> (Note the `a` at the end.)
 
 
 
