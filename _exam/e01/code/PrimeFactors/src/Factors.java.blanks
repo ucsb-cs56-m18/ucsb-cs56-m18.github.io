@@ -1,0 +1,71 @@
+import java.util.ArrayList;
+
+public class Factors extends ArrayList<Integer> {
+
+    public Factors(int [] nums) {
+    
+
+       ___________________________________________
+
+       for (int i: nums) {
+
+             ______________________________________
+
+	}
+
+       ___________________________________________
+    }
+
+    /* Precondition: this object contains a list of factors computed from some number.  
+       All but the last is guaranteed to be a prime number, and the factors are in non-decreasing
+       order (they stay the same, or go up, from lowest index to highest index.)   
+
+       Postcondition: If the last element is a prime number,
+        return the same ArrayList, unchanged.
+
+       Otherwise, take the last element, factor out the lowest prime factor, and replace 
+       the last element with two elements; the prime factor, and the product of the remaining
+        factors. 
+     */
+
+    public void addNextFactor() {
+	  int lastElement = 
+
+		  ____________________________________
+	  
+	  // in special case where last element is 4, need <= lastElement/2 not < 2
+	  for (int i=2; i<=lastElement/2; i++) {
+	    if (lastElement % i == 0) {
+	     	this.replaceLastFactor(i);
+		    this.addFactor(lastElement/i);
+		    return;
+	    }
+	  }
+    }
+
+	// NOTE: This method is complete and correct.
+	// You don't need it except to understand the context of the other code
+	
+    public static Factors primeFactors(int num) {
+	  Factors f = new Factors(new int []{num});
+	  int prevSize = 0;
+	  while ( f.size() != prevSize) {
+	    prevSize = f.size();
+	    f.addNextFactor();
+	  }
+	  return f;
+    }
+
+    /** replace last factor with the value i */
+    public void replaceLastFactor(int i) {
+
+		_________________________________
+    }
+
+    /**  add factor to end of list  */
+    public void addFactor(int f) {
+
+	  _____________________________	
+    }
+
+}
