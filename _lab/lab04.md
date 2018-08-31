@@ -330,6 +330,10 @@ In this part of the lab, you'll:
    * If you are working with a pair partner (or perhaps even with more than two folks), add those folks as collaborators on your repo.
 * Create a heroku app called <tt>cs56-m18-githubid-{{page.num}}a<tt> (Note the `a` at the end.)
 * Modify the `pom.xml` in the same way that we modified the `pom.xml` before (i.e. modifying the `<appname>` element in the `heroku-maven-plugin`).
+* <span style="color:red; font-weight:bold">IMPORTANT</span>: Also make the modifications explained on this page: <https://ucsb-cs56-pconrad.github.io/topics/heroku/>.  
+   * The Java source file to modify is `src/main/java/app/Application.java`; that's where you change the `port(4567)` and add the `getHerokuAssignedPort()` method.
+   * You'll also need to add the plugin for heroku into the `pom.xml`
+   * You'll need to do this on any SparkJava tutorial that you get off the web if you want to deploy it to Heorku
 * Compile and deploy in the same way that we did for the other webapp.
 	
 Then you should be able to see this running web app, which matches the tutorial at this link: <http://sparkjava.com/tutorials/application-structure>
