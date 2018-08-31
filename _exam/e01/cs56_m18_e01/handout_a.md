@@ -123,7 +123,7 @@ method signature:
      style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
      class="hanging-indent-table">
 
-| `int` | `compare(T o1, T o2)` | Compares this object with the specified object for order. <br>Returns a negative integer, zero, or a positive integer <br>as this object is less than, equal to, or greater than the specified object. |
+| `int` | `compare(T o1, T o2)` |  Compares its two arguments for order. <br>Returns a negative integer, zero, or a positive integer <br>as the first argument is less than, equal to, or greater than the second.  |
 
 </div>
 
@@ -134,7 +134,7 @@ method signature:
      style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
      class="hanging-indent-table">
 
-| `int` | `compareTo(T o)` |  Compares its two arguments for order. <br>Returns a negative integer, zero, or a positive integer <br>as the first argument is less than, equal to, or greater than the second. |
+| `int` | `compareTo(T o)` | Compares this object with the specified object for order. <br>Returns a negative integer, zero, or a positive integer <br>as this object is less than, equal to, or greater than the specified object.|
 
 </div>
 
