@@ -9,7 +9,7 @@ gauchospace_url: "https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=14
 ---
 
 <div style="display:none" >
-Look here for formatted version: http://ucsb-cs56-m18.github.io/lab/lab03
+Look here for formatted version: http://ucsb-cs56-m18.github.io/lab/lab04
 </div>
 
 This is an **individual** lab on the topic of Java web apps on Heroku.
