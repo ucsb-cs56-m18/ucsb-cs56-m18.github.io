@@ -4,11 +4,13 @@ num: lab03
 ready: true
 desc: "Testing and Sorting with Lambdas"
 assigned: 2018-08-24 09:30
-due: 2018-08-31 12:30
+due: 2018-08-31 11:59
 github_org: "ucsb-cs56-m18"
 starter_repo: "https://github.com/ucsb-cs56-m18/STARTER_lab03"
 last_before: "Midterm Exam E01"
 ---
+
+<span style="color:red; font-weight:bold">NOTE</span>: the deadline is midnight Friday 8/31, but late submissions on Gradescope will be accepted through midnight Monday September 3.    If you are not done with lab03, please get done over the three-day weekend.  After that, there are no further extensions.
 
 In this lab:
 
