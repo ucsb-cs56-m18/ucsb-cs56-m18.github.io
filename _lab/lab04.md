@@ -365,6 +365,7 @@ A few that may be particularly interesting:
 
 * Chat application: <http://sparkjava.com/tutorials/websocket-chat>
 * A mini Twitter clone: <http://sparkjava.com/tutorials/twitter-clone>
+* A contact list (using MongoDB): <http://sparkjava.com/tutorials/cloud-contact-app>
 * Unit testing: <http://sparkjava.com/tutorials/unit-testing>
 * A REST service: <http://sparkjava.com/tutorials/reducing-java-boilerplate>
    * See also: <https://www.infoq.com/articles/rest-introduction>
