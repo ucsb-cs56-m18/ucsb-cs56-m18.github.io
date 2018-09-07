@@ -45,7 +45,8 @@ First the process in brief, then a detailed description of each step.
    
    <div class="project-links" markdown="1">
    <style>
-     div.project-links table * td  { font-weight: bold; }
+     div.project-links table * th  { font-weight: bold; text-align:center; padding: 5px; }
+     div.project-links table * td  { font-weight: bold; text-align:center; padding: 5px; }
    </style>
    
    |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)|[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/projects/1)|
