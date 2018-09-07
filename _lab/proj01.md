@@ -83,7 +83,7 @@ First the process in brief, then a detailed description of each step.
    |lab|Project|Name|github id|Role| 
    |-|-|-|-|-|
    |9:30|ScrapsToSnacks|Wilson|wilsonmui|Mentor |
-   |9:30|Go!|Nuan|nuankw@yahoo.com|Mentor |
+   |9:30|Go!|Nuan|nuankw|Mentor |
    |9:30|Ride2School|Guancheng (Derek)|guanguangua|Mentor |
    |9:30|GauchoCourses|Fuheng |Charlie110|Mentor |
    |11|DogWalker|Omer|omerco1|Mentor |
