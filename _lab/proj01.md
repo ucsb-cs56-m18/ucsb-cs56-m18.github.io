@@ -17,8 +17,7 @@ how to communicate, frequently, over the next 7 days with:
 * The TA assigned to your team
 
 |Lab| Mentor | Project | Issues List |  m18-project |
-|-|-|-|-|-|-|
-|  Derek | [Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school) | [Issues](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/issues)| [Project](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|
+|-|-|-|-|-|
 |9:30|Mahnaz| Wilson | [ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks	) | [Issues](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/issues)| [Project](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|
 |9:30|Mahnaz| 	Nuan	|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go)| [Issues](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/issues)| [Project](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)|
 |9:30|Santha|Derek | [Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school) | [Issues](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/issues)|[Project](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|
