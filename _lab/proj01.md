@@ -80,7 +80,8 @@ First the process in brief, then a detailed description of each step.
    The github ids of the folks that can approve issues are here.  
    **You can contact any/all of these folks via Instructor Notes on Piazza**.
    
-   |lab|Project|Name|github id|Role|  
+   |lab|Project|Name|github id|Role| 
+   |-|-|-|-|
    |9:30|ScrapsToSnacks|Wilson|wilsonmui|Mentor |
    |9:30|Go!|Nuan|nuankw@yahoo.com|Mentor |
    |9:30|Ride2School|Guancheng (Derek)|guanguangua|Mentor |
