@@ -136,7 +136,8 @@ First the process in brief, then a detailed description of each step.
 5. **Pull Request is peer-reviewed** by mentor.  
 
    MENTORS: More detail about peer-reviewing issues will be posted here later.
-   It will be similar to this process from past instances of CS56: (TODO)
+   It will be similar to this process from past instances of CS56: 
+   <https://ucsb-cs56-pconrad-mentors.github.io/topics/legacy_code_projects_giving_feedback/>
    
 6. **Feedback is placed in the (private) feedback repo** for
    the team that worked on the issue.
