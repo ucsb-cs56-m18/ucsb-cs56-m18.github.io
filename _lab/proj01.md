@@ -27,8 +27,10 @@ course grade.  (Points earned beyond 1100 contribute to your learning, but not t
 
 First the process in brief, then a detailed description of each step.
 1. **Issue is created** in Github (by anyone) and placed in "To-Do" column of your Project on github.
-2. **Issue is approved and points are estimated** by Mentor, TA or Instructor.
+2. **Issue is approved and points are estimated** by Mentor, TA or Instructor. 
+   As part of this **define clearly what "done" means**.
 3. **Issue is assigned** to one or more team members and placed in "In-Progress" column.
+4. You **actually work** on the issue.
 4. **Issue is completed** and a **Pull Request** is entered. At this point, issue moves to the
    "Needs Review" column.
 5. **Pull Request is peer-reviewed** by mentor.  
@@ -70,6 +72,12 @@ First the process in brief, then a detailed description of each step.
    estimation appear below.)   If you start working on the issue before it is approved and estimated,
    you do so at your own risk.  
    
+   It is very important that the mentor be sure there is a clear **definition of "done"**.
+   Try to make sure that what "done" looks like is as clearly spelled out as possible.
+   If the issue is too vague, it will difficult to estimate, and even *harder* to determine
+   later whether students have earned the points.  This is a very important step! 
+   Discuss the *definition of "done"* with the team.
+   
    <p> <span style="color:red; font-weight:bold;">So it is important that you work FIRST today
    on making sure that your team has enough issues in the TODO pile that you can work towards and
    earn 1000 points by next Friday at 9:30am.</span>.   Work FIRST today on identifying issues
@@ -96,29 +104,55 @@ First the process in brief, then a detailed description of each step.
     
 3. **Issue is assigned** to one or more team members and placed in "In-Progress" column.
 
-   TODO: More detail
+   You (or your mentor) will drag the issue from the "To-do" column into the "In-Progress"
+   column on your project page, here.  Also, you or your mentor can assign people to the 
+   issue on github.  This helps us track who is working on what, and simplifies the process
+   later of who gets credit.  (Note that you can make adjustments to that in the pull request
+   if who worked on something and who should get credit changes.)
    
-4. **Issue is completed** and a **Pull Request** is entered. At this point, issue moves to the
+   Also **discuss the definition of "done"** with the folks to whom the issue is assigned.
+   
+   <div class="project-links" markdown="1">
+   
+   |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)|[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/projects/1)|
+   |-|-|-|-|
+   |[DogWalker](https://github.com/ucsb-cs56-webapps/ucsb-cs56-dogwalker/projects/1)|[GauchoAlarm](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchoalarm/projects/1) |[GauchoGains](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchogains/projects/2)|[Go Gaucho](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gogaucho/projects/1)|
+   </div>
+
+4. This is the stage where you actually work on the issue.  Get it to the "done" criteria.
+   
+   
+4. **Issue is completed** and a **Pull Request** is entered. 
+   At this point, issue moves to the
    "Needs Review" column.
    
-   TODO: More detail
+   After creating the pull request, add a comment that references the issue
+   that it addresses.  If you use the syntax `#` followed by an issue number, 
+   e.g. `fixes #4`, then the `#4` becomes a hyperlink to the issue.  This is very
+   helpful.
+   
+   Then, notify your mentor that the issue is done, and ask them to review it.
    
 5. **Pull Request is peer-reviewed** by mentor.  
 
-   TODO: More detail
+   MENTORS: More detail about peer-reviewing issues will be posted here later.
+   It will be similar to this process from past instances of CS56: (TODO)
    
 6. **Feedback is placed in the (private) feedback repo** for
    the team that worked on the issue.
    
-   TODO: More detail
+    MENTORS: More detail about peer-reviewing issues will be posted here later.
+   It will be similar to this process from past instances of CS56:  (TODO)
    
 7. **TA or Instructor** assigns a grade (recorded in the feedback repo).
 
-   TODO: More detail
+   TAs: More detail about peer-reviewing issues will be posted here later.
+   It will be similar to this process from past instances of CS56:  (TODO)
    
 8. **Points are recorded on Gauchospace**
 
-   TODO: More detail
+   TAs: More detail about recording points will be posted here later.
+   It will be similar to this process from past instances of CS56:  (TODO)
  
 
 # Full Table of Project Info 
