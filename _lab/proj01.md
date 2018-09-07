@@ -43,7 +43,7 @@ First the process in brief, then a detailed description of each step.
 
    The issue is created on the project page for your team, i.e. here:
    
-   |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)||[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/projects/1)|
+   |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)|[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/projects/1)|
    |-|-|-|-|
    |[DogWalker](https://github.com/ucsb-cs56-webapps/ucsb-cs56-dogwalker/projects/1)|[GauchoAlarm](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchoalarm/projects/1) |[GauchoGains](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchogains/projects/2)|[Go Gaucho](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gogaucho/projects/1)|
 
