@@ -41,7 +41,7 @@ First the process in brief, then a detailed description of each step.
 
 1. **Issue is created** in Github (by anyone) and placed in "To-Do" column of your Project on github.
 
-   The issue is created on the project page for your team, i.e. here:
+   The issue is created on the issues list for your team, i.e. here:
    
    <div class="project-links" markdown="1">
    <style>
@@ -49,16 +49,24 @@ First the process in brief, then a detailed description of each step.
      div.project-links table * td  { font-weight: bold; text-align:center; padding: 5px; }
    </style>
    
+   |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/issues)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/issues)|[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/issues)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/issues)|
+   |-|-|-|-|
+   |[DogWalker](https://github.com/ucsb-cs56-webapps/ucsb-cs56-dogwalker/issues)|[GauchoAlarm](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchoalarm/issues) |[GauchoGains](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchogains/issues)|[Go Gaucho](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gogaucho/issues)|
+   </div>
+   
+   Then it is placed in the TO-DO column of the project page for your team, here:
+   <div class="project-links" markdown="1">
+   
    |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)|[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/projects/1)|
    |-|-|-|-|
    |[DogWalker](https://github.com/ucsb-cs56-webapps/ucsb-cs56-dogwalker/projects/1)|[GauchoAlarm](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchoalarm/projects/1) |[GauchoGains](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchogains/projects/2)|[Go Gaucho](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gogaucho/projects/1)|
+   </div>
 
-
-Earning points toward the 1000 happens by this process:
-1. An issue is created on the project page for your team.  It may be created by you, by a mentor,
-   by a TA, or by the instructor.
 2. BEFORE you start working on the issue, get the issue "approved" by a mentor, TA or instructor,
-   and get a point estimate.  Point estimates should be 100, 200 or 400. (Guidelines for point
+   and get a point estimate.  This happens by having either a mentor, TA, or instructor
+   make a comment of the form: `Approved, Estimate 200 points` on the issue, on Github.
+   
+   Point estimates should be 100, 200 or 400. (Guidelines for point
    estimation appear below.)   If you start working on the issue before it is approved and estimated,
    you do so at your own risk.  
    
@@ -69,7 +77,50 @@ Earning points toward the 1000 happens by this process:
    after the 9:30am lab (the 9:30am mentors will stay around until 12:30), and you can also stay 
    after the 11am lab (I'll be around, as will Derek from 12:30-2:30, and Zihao from 2:30-4:30).
    
-3. 
+   The github ids of the folks that can approve issues are here.  
+   **You can contact any/all of these folks via Instructor Notes on Piazza**.
+   
+   |lab|Project|Name|github id|Role|  
+   |9:30|ScrapsToSnacks|Wilson|wilsonmui|Mentor |
+   |9:30|Go!|Nuan|nuankw@yahoo.com|Mentor |
+   |9:30|Ride2School|Guancheng (Derek)|guanguangua|Mentor |
+   |9:30|GauchoCourses|Fuheng |Charlie110|Mentor |
+   |11|DogWalker|Omer|omerco1|Mentor |
+   |11|GauchoAlarm|Zihao|DennisZZH|Mentor |
+   |11|GauchoGains|Chandler|Figler|Mentor|
+   |11|GoGaucho|Yunkai|zhykoties|Mentor |
+   |All|All|Mahnaz|mahnazkoupaee|TA|
+   |All|All|Santha Meena|santhameena13|TA|
+   |All|All|Conrad|pconrad|Instructor|
+    
+3. **Issue is assigned** to one or more team members and placed in "In-Progress" column.
+
+   TODO: More detail
+   
+4. **Issue is completed** and a **Pull Request** is entered. At this point, issue moves to the
+   "Needs Review" column.
+   
+   TODO: More detail
+   
+5. **Pull Request is peer-reviewed** by mentor.  
+
+   TODO: More detail
+   
+6. **Feedback is placed in the (private) feedback repo** for
+   the team that worked on the issue.
+   
+   TODO: More detail
+   
+7. **TA or Instructor** assigns a grade (recorded in the feedback repo).
+
+   TODO: More detail
+   
+8. **Points are recorded on Gauchospace**
+
+   TODO: More detail
+ 
+
+# Full Table of Project Info 
 
 |Lab| Mentor | Project | Issues List |  m18-project |
 |-|-|-|-|-|
