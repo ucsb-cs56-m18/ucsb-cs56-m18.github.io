@@ -37,6 +37,16 @@ First the process in brief, then a detailed description of each step.
 7. **TA or Instructor** assigns a grade (recorded in the feedback repo).
 8. **Points are recorded on Gauchospace**
 
+## Process in Detail
+
+1. **Issue is created** in Github (by anyone) and placed in "To-Do" column of your Project on github.
+
+   The issue is created on the project page for your team, i.e. here:
+   
+   |[ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|[Go!](https://github.com/ucsb-cs56-webapps/ucsb-cs56-go/projects/1)||[Ride2School](https://github.com/ucsb-cs56-webapps/ucsb-cs56-ride2school/projects/1)|[GauchoCourses](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchocourses/projects/1)|
+   |-|-|-|-|
+   |[DogWalker](https://github.com/ucsb-cs56-webapps/ucsb-cs56-dogwalker/projects/1)|[GauchoAlarm](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchoalarm/projects/1) |[GauchoGains](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gauchogains/projects/2)|[Go Gaucho](https://github.com/ucsb-cs56-webapps/ucsb-cs56-gogaucho/projects/1)|
+
 
 Earning points toward the 1000 happens by this process:
 1. An issue is created on the project page for your team.  It may be created by you, by a mentor,
