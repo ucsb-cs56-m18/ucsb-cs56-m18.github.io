@@ -16,6 +16,13 @@ how to communicate, frequently, over the next 7 days with:
 * Your fellow team members
 * The TA assigned to your team
 
+Earning points happens by this process:
+1. An issue is created on the project page for your team.  It may be created by you, by a mentor,
+   by a TA, or by the instructor.
+2. BEFORE you start working on the issue, get the issue "approved" by a mentor, TA or instructor,
+   and get a point estimate.  Point estimates should be 100, 200 or 400. (Guidelines for point
+   estimation appear below.)
+
 |Lab| Mentor | Project | Issues List |  m18-project |
 |-|-|-|-|-|
 |9:30|Mahnaz| Wilson | [ScrapsToSnacks](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks	) | [Issues](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/issues)| [Project](https://github.com/ucsb-cs56-webapps/ucsb-cs56-scrapstosnacks/projects/1)|
@@ -32,3 +39,23 @@ Example project:
 |Lab| TA |  Mentor | Project | Issues List |  m18-project |
 |-|-|-|-|-|-|
 | N/A |Conrad | Conrad | [WebApp-Catalog](https://github.com/ucsb-cs56-webapps/ucsb-cs56-webapp-catalog) | [Issues](https://github.com/ucsb-cs56-webapps/ucsb-cs56-webapp-catalog/issues) | [Project](https://github.com/ucsb-cs56-webapps/ucsb-cs56-webapp-catalog/projects/2) | 
+
+# Guidelines for point estimation
+
+* 100: Straightforward change; just follow the example. It's clear what to do and how to do it.
+* 200: Involves a bit of work, and a bit of figuring things out, but if you work at it a bit, it
+   all falls into place.   The process has been outlined pretty clearly, and we've gone over it.
+* 400: Involves more than just applying concepts from a tutorial that we've gone over in class.
+   Either:
+   * It involves applying concepts from a tutorial we have *not* gone over
+   * It involves indepdendent research (e.g. google searches, StackOverflow, etc.) to
+      figure out how to solve the problem.
+   * You can see that there are some "known unknowns" and possibly some "unknown unknowns"
+      that will have to be addressed.
+
+Note that these are *initial estimates*.  After the fact, you can present a case why a point
+value should be increased.   The case involves explaining the good faith effort you made to
+solve the problem, and why it was more complex than the initial estimate might have indicated.
+
+It does NOT involve conversations such as "we started the night before it was due" or 
+"my cat ran over my dog, and then my hamster threw up on my computer, and then I broke my leg".
