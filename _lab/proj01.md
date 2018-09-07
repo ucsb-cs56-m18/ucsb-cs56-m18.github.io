@@ -16,12 +16,44 @@ how to communicate, frequently, over the next 7 days with:
 * Your fellow team members
 * The TA assigned to your team
 
-Earning points happens by this process:
+# Understand the process
+
+You need to earn 1000 points by next Tuesday.
+
+You may earn up to 1100 points; the extra 100 count as up to 2% extra credit on your final
+course grade.  (Points earned beyond 1100 contribute to your learning, but not to your grade.)
+
+## Process in Brief
+
+First the process in brief, then a detailed description of each step.
+1. **Issue is created** in Github (by anyone) and placed in "To-Do" column of your Project on github.
+2. **Issue is approved and points are estimated** by Mentor, TA or Instructor.
+3. **Issue is assigned** to one or more team members and placed in "In-Progress" column.
+4. **Issue is completed** and a **Pull Request** is entered. At this point, issue moves to the
+   "Needs Review" column.
+5. **Pull Request is peer-reviewed** by mentor.  
+6. **Feedback is placed in the (private) feedback repo** for
+   the team that worked on the issue.
+7. **TA or Instructor** assigns a grade (recorded in the feedback repo).
+8. **Points are recorded on Gauchospace**
+
+
+Earning points toward the 1000 happens by this process:
 1. An issue is created on the project page for your team.  It may be created by you, by a mentor,
    by a TA, or by the instructor.
 2. BEFORE you start working on the issue, get the issue "approved" by a mentor, TA or instructor,
    and get a point estimate.  Point estimates should be 100, 200 or 400. (Guidelines for point
-   estimation appear below.)
+   estimation appear below.)   If you start working on the issue before it is approved and estimated,
+   you do so at your own risk.  
+   
+   <p> <span style="color:red; font-weight:bold;">So it is important that you work FIRST today
+   on making sure that your team has enough issues in the TODO pile that you can work towards and
+   earn 1000 points by next Friday at 9:30am.</span>.   Work FIRST today on identifying issues
+   and getting them estimated.  If you need to, you can stay 
+   after the 9:30am lab (the 9:30am mentors will stay around until 12:30), and you can also stay 
+   after the 11am lab (I'll be around, as will Derek from 12:30-2:30, and Zihao from 2:30-4:30).
+   
+3. 
 
 |Lab| Mentor | Project | Issues List |  m18-project |
 |-|-|-|-|-|
