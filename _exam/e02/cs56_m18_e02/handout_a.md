@@ -1,6 +1,6 @@
 ---
 layout: examHandoutNoName
-num: e01
+num: e02
 ready: true
 desc: "Handout A"
 qtr: M18
@@ -107,20 +107,28 @@ public abstract class Product {
     }
 }
 {% endhighlight %}
-<h1 markdown="1" class="page-break-before">LotteryPick and LottoPick</h1>
 
-The classes LotteryPick and LottoPick are both used to represent a set of numbers that
-someone might choose for a lottery where numbered balls are chosen (e.g. 5 or 6 balls numbered 1-40, for example), and you win money depending on how many balls your picks match.
 
-<h2 markdown="1">class `LotteryPick`</h2>
+<h1 markdown="1" class="page-break-before">class `java.util.ArrayList<E>`</h1>
 
-The class `LotteryPick` uses inheritance (extending `java.util.ArrayList<Integer>` to
-implement the constructors and methods shown below in the excerpt of the javadoc.
+<style>
 
-(Contrast this with `LottoPick`, which uses composition instead, and is discusssed on the bottom
-half of this page).
+body {
+ font-size: 72%;
+ line-height: 102%;
+}
+
+td  {
+  padding-left:5px; padding-right: 5px;
+} 
+</style>
+
+
 
 <div style="font-size:90%; font-family: Arial Narrow, sans-serif;">
+
+The following excerpts from the javadoc for `java.util.ArrayList<E>` may be
+helpful to you in completing this exam.
 
 Inheritance Hierarchy (complete)
 
@@ -128,15 +136,15 @@ Inheritance Hierarchy (complete)
 java.lang.Object
   java.util.AbstractCollection<E>
     java.util.AbstractList<E>
-      java.util.ArrayList<java.lang.Integer>
-        LotteryPick
+      java.util.ArrayList<E>
 ```
 
 <div markdown="1"
      style="font-size: 80%; font-family: Arial Narrow, sans-serif;"
      class="hanging-indent-table">
 
-| All Implemented Interfaces: | `java.io.Serializable, java.lang.Cloneable, java.lang.Iterable<java.lang.Integer>, java.util.Collection<java.lang.Integer>, java.util.List<java.lang.Integer>, java.util.RandomAccess` |
+| All Implemented Interfaces: | `Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess` |
+| Direct Known Subclasses: | `AttributeList, RoleList, RoleUnresolvedList` |
 
 </div>
 
@@ -144,55 +152,9 @@ java.lang.Object
 
 <div markdown="1" class="hanging-indent-table">
 
-| `LotteryPick(int[] nums)` | Initialize from `int` array. |
-| `LotteryPick(LotteryPick other)` | Initialize from another `LotteryPick`.<br> Example: `LotteryPick myPicks(otherPicks);` |
-
-
-
-</div>
-
-## Most important methods, with brief description
-
-<div markdown="1" class="hanging-indent-table">
-
-|`int`| `numMatched(LotteryPick other)` | Return the number of values matched, and as side effect sorts both this LotteryPick and the other passed as a param |
-|`void`|`sortNumbers()` | Sort the numbers in ascending order |
-|`boolean` | `unique()` | Return true if there are no duplicates, and as side effect, sorts numbers |
-
-# Important Note
-
-A Be aware that this class inherits from `java.util.ArrayList<Integer>`.  You have a summary of the javadoc for `java.util.ArrayList<Integer>` available to you on [Handout B](../handout_b)
-</div>
-
-<hr>
-<hr>
-<hr>
-
-<h2  markdown="1">class `LottoPick`</h2>
-
-The class `LottoPick` uses composition (it "has-a" `java.util.ArrayList<Integer>` as a private
-data member)  to implement the constructors and methods shown below in the excerpt of the javadoc.
-
-<div style="font-size:90%; font-family: Arial Narrow, sans-serif;">
-
-Inheritance Hierarchy (complete)
-
-```
-java.lang.Object
-  LottoPick
-```
-
-There are no implemented interfaces listed in the javadoc.
-
-
-## Constructors (complete)
-
-<div markdown="1" class="hanging-indent-table">
-
-| `Lotto(int[] nums)` | Initialize from `int` array. |
-| `LottoPick(LottoPick other)` | Initialize from another `LottoPick`.<br> Example: `LottoPick myPicks(other);` |
-
-
+| `ArrayList()` | Constructs an empty list with an initial capacity of ten.
+| `ArrayList(Collection<? extends E> c)` | Constructs a list containing the elements of the specified collection,<br>in the order they are returned by the collection's iterator. |
+| `ArrayList(int initialCapacity)` | Constructs an empty list with the specified initial capacity. |
 
 </div>
 
@@ -200,14 +162,55 @@ There are no implemented interfaces listed in the javadoc.
 
 <div markdown="1" class="hanging-indent-table">
 
+| `boolean` | `add(E e)` | Appends the specified element to the end of this list. |
+| `void` | `add(int index, E element)` | Inserts the specified element at the specified position in this list. <br>Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).<br>throws `IndexOutOfBoundsException` if `(index < 0 || index > size())`|
+| `void` | `clear()` | Removes all of the elements from this list.|
+| `E` | `get(int index)` | Returns the element at the specified position in this list. |
+| `int` | `indexOf(Object o)` | Returns the index of the first occurrence of the specified element in this list, <br>or -1 if this list does not contain the element. |
+| `boolean` | `isEmpty()` | Returns true if this list contains no elements. |
+| `int`	|  `lastIndexOf(Object o)` | Returns the index of the last occurrence of the specified element in this list,<br>or -1 if this list does not contain the element. |
+| `E` | `remove(int index)` | Removes the element at the specified position in this list.|
+| `boolean` | `remove(Object o)` | Removes the first occurrence of the specified element from this list, if it is present. |
+| `E` | `set(int index, E element)` | Replaces the element at the specified position in this list with the specified element.<br>Returns the element previously at the specified position<br> throws `IndexOutOfBoundsException` if `(index < 0 || index >= size())`|
+| `int` | `size()` | Returns the number of elements in this list. |
+| `void` | `sort(Comparator<? super E> c)` | Sorts this list according to the order induced by the specified `Comparator`. |
 
-|`boolean`|`equals(java.lang.Object o)`|Override equals to compare picks.  Uses the implementation of `equals` from `java.util.ArrayList<Integer>`, thus order will matter. |
-|`java.util.ArrayList<java.lang.Integer>`|`getPicks()`|return copy of wrapped `ArrayList<Integer> (not reference to original)`|
-|`int`|`hashCode()`| returns `hashCode` value of wrapped `ArrayList` |
-|`static int`|`numMatched(LottoPick first, LottoPick second)`|Return the number of values matched, and as side effect sorts numbers in both LottoPick objects|
-|`void`|`sortNumbers()`|Sort the numbers in ascending order|
-|`boolean`|`unique()` | Return true if there are no duplicates, and as side effect, sorts numbers |
+</div>
 
-# Important Note
+## Additional methods, listed by method signature only.
 
-Pay attention to the fact that the `numMatched` method is `static` in `LottoPick`. 
+<div markdown="1" class="hanging-indent-table">
+
+| `boolean addAll(Collection<? extends E> c)` | `boolean	addAll(int index, Collection<? extends E> c)` |
+| `Object   clone()` |  `boolean  contains(Object o)` |
+| `void	   ensureCapacity(int minCapacity)` | `void forEach(Consumer<? super E> action)` |
+| `Iterator<E> iterator()` | `ListIterator<E>  listIterator()` |
+| `ListIterator<E> listIterator(int index)` | `boolean removeAll(Collection<?> c)` |
+| `boolean removeIf(Predicate<? super E> filter)` | `protected void removeRange(int fromIndex, int toIndex)` |
+| `void replaceAll(UnaryOperator<E> operator)` | `boolean retainAll(Collection<?> c)` |
+| `Spliterator<E>  spliterator()` | `List<E> subList(int fromIndex, int toIndex)`
+| `Object[] toArray()` | `<T> T[] toArray(T[] a)` |
+| `void    trimToSize()` | |
+
+</div>
+
+## Methods inherited from:
+
+<div markdown="1" class="hanging-indent-table">
+
+| `class java.util.AbstractList` | `equals, hashCode` |
+| `class java.util.AbstractCollection` | `containsAll, toString` |
+| `class java.lang.Object` | `finalize, getClass, notify, notifyAll, wait, wait, wait` |
+| `interface java.util.List` |  `containsAll, equals, hashCode` |
+| `interface java.util.Collection` |  `parallelStream, stream` |
+
+</div>
+</div>
+
+<h1>interface `java.lang.Comparable<T>`</h1>
+
+<div markdown="1" class="hanging-indent-table">
+
+| `public int` | `compareTo(T o)` | Compares this object with the specified object for order. Returns a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object. |
+
+</div>
