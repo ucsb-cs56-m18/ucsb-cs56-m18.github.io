@@ -43,6 +43,9 @@ public class Dog {
 	System.out.println("Line " + i);
 	System.gc();
 	System.runFinalization ();
+	try {
+	Thread.sleep(10);
+	} catch (Exception e) {}
 	System.gc();
 	System.runFinalization ();
     }
