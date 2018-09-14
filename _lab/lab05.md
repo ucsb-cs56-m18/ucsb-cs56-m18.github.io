@@ -48,7 +48,7 @@ div.fill-in-table table {
   * When that's done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
 * If there is any dispute about that, bring it to the instructor's attention NOW before this lab is done.
 
-THEN TURN OVER THE PAGE FOR THE FINAL 50 points.
+THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 
 <div class="pagebreak"></div>
 
