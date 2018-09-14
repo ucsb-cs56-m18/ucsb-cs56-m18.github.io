@@ -50,7 +50,7 @@ div.fill-in-table table {
 
 THEN TURN OVER THE PAGE FOR THE FINAL 50 points.
 
-<div class="page-break"></div>
+<div class="pagebreak"></div>
 
 </li>
  
@@ -62,13 +62,11 @@ THEN TURN OVER THE PAGE FOR THE FINAL 50 points.
    * <code>_________________________________________</code>
 * In pairs, individually, or as a team, try to compile and run their code.  IF THERE IS ANY DATABASE SET UP NEEDED, the README of both your repo and that of the other team should document that setup.  IF IT DOESN'T, GET SOMEONE FROM EACH TIME TO STOP AND FIX THIS.
 
-Were you able to get the other team's repo to run?  YES NO
+Were you able to get the other team's repo to run? Circle one:  YES NO
 
-Where they able to get your repo to run?  YES NO
+Where they able to get your repo to run? Circle one:  YES NO
 
-Explain any NO answers.
+Explain any NO answers.   The goal is to NOT HAVE a NO answer.
 
-
-  
 </li>
 </ol>
