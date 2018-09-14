@@ -10,7 +10,7 @@ due: 2018-09-14 12:20
 What you need to do today in lab:
 
 <ol>
-<li> Fill out your name on this worksheet at the top</li>
+<li> (5 pts) Fill out your name on this worksheet at the top</li>
 <li> (5 pts) Fill in your mentor's name and team name below:
 
 <style>
