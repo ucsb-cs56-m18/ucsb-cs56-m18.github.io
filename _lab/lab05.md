@@ -46,7 +46,8 @@ div.fill-in-table table {
   * assigned the final points (i.e. grade our of /1000 plus extra credit out of /100) for your team based on the issues you completed, and the feedback from your mentor, and
   * has recording that feedback IN THE FEEDBACK REPO (not just told you).
   * When that's done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
-* If there is any dispute about that, bring it to the instructor's attention NOW before this lab is done.
+  * If you presented in lecture, make sure that 50 pts is recorded by Prof. Conrad near the bottom of the repo.
+  * If there is any dispute about that, bring it to the instructor's attention NOW before this lab is done.
 
 THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 
