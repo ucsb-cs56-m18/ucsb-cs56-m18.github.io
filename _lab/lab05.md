@@ -92,4 +92,5 @@ Do a pull request with that, and get the mentor to look at it, and approve that 
 
 And you are done!
 
+</li>
 </ol>
