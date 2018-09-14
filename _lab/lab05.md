@@ -1,7 +1,7 @@
 ---
 layout: hwk
 num: lab05
-ready: false
+ready: true
 desc: "Leaving a legacy"
 assigned: 2018-09-14 09:30
 due: 2018-09-14 12:20
