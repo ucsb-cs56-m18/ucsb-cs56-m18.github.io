@@ -21,7 +21,7 @@ div.fill-in-table table {
 }
 </style>
 
-<div class="fill-in-table">
+<div class="fill-in-table" markdown="1">
   
 | Mentor | Team |
 |-|-|
@@ -30,7 +30,7 @@ div.fill-in-table table {
 </div>
 </li>
 
-<li> Locate your feedback repo by visiting http://github.org/ucsb-cs56-m18 and searching for FEEDBACK.
+<li markdown="1"> Locate your feedback repo by visiting http://github.org/ucsb-cs56-m18 and searching for FEEDBACK.
   If you don't have access to it, ask your mentor for help.
   
 * Read through it.  
@@ -41,7 +41,7 @@ div.fill-in-table table {
 * If there is any dispute about that, bring it to the instructor's attention NOW before this lab is done.
   </li> 
   
-  <li> Now look in the repo and see if your TA (Mahnaz for front two rows, Santha for back two rows) has:
+  <li markdown="1"> Now look in the repo and see if your TA (Mahnaz for front two rows, Santha for back two rows) has:
   
   * assigned the final points (i.e. grade our of /1000 plus extra credit out of /100) for your team based on the issues you completed, and the feedback from your mentor, and
   * has recording that feedback IN THE FEEDBACK REPO (not just told you).
@@ -54,7 +54,7 @@ THEN TURN OVER THE PAGE FOR THE FINAL 50 points.
 
 </li>
  
-<li> (50 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
+<li markdown="1"> (50 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
   
 * Send the row in front or behind you the URL of the repo from which you did your last pull request.  Write that url here:   
    * <code>_________________________________________</code>
