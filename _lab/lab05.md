@@ -11,7 +11,7 @@ What you need to do today in lab:
 
 <ol>
 <li> Fill out your name on this worksheet at the top</li>
-<li> (10 pts) Fill in your mentor's name and team name below:
+<li> (5 pts) Fill in your mentor's name and team name below:
 
 <style>
 div.fill-in-table table {
@@ -30,7 +30,7 @@ div.fill-in-table table {
 </div>
 </li>
 
-<li markdown="1"> Locate your feedback repo by visiting http://github.org/ucsb-cs56-m18 and searching for FEEDBACK.
+<li markdown="1"> (10 pts) Locate your feedback repo by visiting http://github.org/ucsb-cs56-m18 and searching for FEEDBACK.
   If you don't have access to it, ask your mentor for help.
   
 * Read through it.  
@@ -54,12 +54,16 @@ THEN TURN OVER THE PAGE FOR THE FINAL 50 points.
 
 </li>
  
-<li markdown="1"> (50 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
+<li markdown="1"> (40 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
   
 * Send the row in front or behind you the URL of the repo from which you did your last pull request.  Write that url here:   
+
    * <code>_________________________________________</code>
+
 * Get the corresponding URL of the row behind you.  Write that url here:   
+
    * <code>_________________________________________</code>
+
 * In pairs, individually, or as a team, try to compile and run their code.  IF THERE IS ANY DATABASE SET UP NEEDED, the README of both your repo and that of the other team should document that setup.  IF IT DOESN'T, GET SOMEONE FROM EACH TIME TO STOP AND FIX THIS.
 
 Were you able to get the other team's repo to run? Circle one:  YES NO
@@ -68,5 +72,14 @@ Where they able to get your repo to run? Circle one:  YES NO
 
 Explain any NO answers.   The goal is to NOT HAVE a NO answer.
 
+</li>
+
+<li markdown="1"> (40 pts) Now, return to your team, and meet with your mentor.  Go through the list of issues for team, one at a time, and have your mentor:
+* CLOSE any issues that are actually fully resolved. 
+* If the issue is partially resolved, enter a NEW issue for the unresolved part (that the F18 team will work on), and get the mentor to estimate it.
+* Then, work with the mentor to put in at least 500 points worth of new issues for the Fall team to work on. (If you already have 500 point worth of issues, estimated and ready to go for Fall, you are done. Otherwise, work together with your mentor on this until it is finished.
+
+
+When this is done, you initial <code>____</code>  and your TA initials here:<code>____</code> and record date/time <code>____</code>.
 </li>
 </ol>
