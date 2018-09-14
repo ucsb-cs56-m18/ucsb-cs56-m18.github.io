@@ -55,7 +55,7 @@ THEN TURN OVER THE PAGE FOR THE REST OF THE 100 points for this lab.
 
 </li>
  
-<li markdown="1"> (20 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
+<li markdown="1"> (15 pts) Now, rows 1 and 2 and rows 3 and 4 are going to trade repos, and check that they can COMPILE AND RUN each others final projects.    
   
 * Send the row in front or behind you the URL of the repo from which you did your last pull request.  Write that url here:   
 
@@ -75,7 +75,7 @@ Explain any NO answers.   The goal is to NOT HAVE a NO answer.
 
 </li>
 
-<li markdown="1"> (30 pts) Now, return to your team, and meet with your mentor.  Go through the list of issues for team, one at a time, and have your mentor:
+<li markdown="1"> (25 pts) Now, return to your team, and meet with your mentor.  Go through the list of issues for team, one at a time, and have your mentor:
 * CLOSE any issues that are actually fully resolved. 
 * If the issue is partially resolved, enter a NEW issue for the unresolved part (that the F18 team will work on), and get the mentor to estimate it.
 * Then, work with the mentor to put in at least 500 points worth of new issues for the Fall team to work on. (If you already have 500 point worth of issues, estimated and ready to go for Fall, you are done. Otherwise, work together with your mentor on this until it is finished.
